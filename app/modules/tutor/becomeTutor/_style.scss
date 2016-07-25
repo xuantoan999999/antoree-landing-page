@@ -1,0 +1,175 @@
+#mod-become-tutor{
+    padding-top: 50px;
+    p{
+        margin: 0;
+    }
+    .content{
+        width: 100%;
+        max-width: 600px;
+    }
+    .h3Title{
+        @include font($fontB,24px,#444);
+        text-align: justify;
+        margin-bottom:10px;
+        text-transform: capitalize;
+    }
+    .line{
+        margin: 0 auto;
+        width: 400px;
+        height: 1px;
+        margin-bottom: 30px;
+        background: black;
+    }
+    .faq{
+        @include font($fontSB,null,#0BC7B4);
+        padding-left:0;
+    }
+    .greenColor{
+        @include font(null,null,$color7);
+        padding-left:5px;
+    }
+    .detail{
+        margin-bottom: 40px;
+        .contact{
+            @include font($fontSB,14px,#444);
+            line-height: 20px;
+            margin: 50px 0 20px;
+        }
+        .text-infomate{
+        	color: #444;
+        }
+    }
+    .contacts{
+        .greenColor{
+            font-weight: bold;
+            padding: 0;
+        }
+    }
+    .steps{
+        margin-top: 30px;
+        strong{
+            display: block;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        .step{
+            margin-bottom: 20px;
+        }
+        .step-number{
+            p{
+                width: 30px;
+                height: 30px;
+                // background-color: $color2;
+                background-color: $color6;
+                @include font(null,18px,white);
+                border-radius: 20px;
+                padding: 2px 10px;
+            }
+
+        }
+
+    }
+    #registerForm{
+        max-width: 380px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fafafa;
+        border: 1px solid #e0e0e0;
+        border-radius: 2px;
+        padding: 30px 15px;
+        .h4Title{
+            @include font($fontB,20px,#444);
+            line-height: 28px;
+            margin: 0 0 5px;
+            text-transform: capitalize;
+        }
+        .bg-input{
+            @include sizeEx(100%,50px);
+            border:1px solid #bdbdbd;
+            border-radius: 3px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            position:relative;
+            background: white;
+        }
+        .bg-select{
+            @include position(absolute,0px,null,null,50px);
+            @include sizeEx(100px,50px);
+            padding-right:10px;
+            background:url(../images/arrow.png) 75px 23px no-repeat;
+            &:after{
+                content: '';
+                @include position(absolute,50%,0px);
+                @include sizeEx(2px,26px);
+                margin-top:-13px;
+                background: rgb(153,153,153);
+            }
+        }
+        .selectbox{
+            @include font($fontR,16px,#aaa);
+            height: 50px;
+            position:absolute;
+            left: -50px;
+            width: 150px;
+            background: url(../images/registerForm/phone.png)no-repeat;
+            padding-left:45px;
+            padding-right:10px;
+            border:none;
+        }
+        input{
+            @include sizeEx(100%,50px);
+            @include font($fontR,16px,#999);
+            border: none;
+            border-radius: 0px;
+            background:none;
+            padding: 0 20px 0 50px;
+        }
+        #name{
+            background: url(../images/registerForm/name.png)no-repeat;
+        }
+        #phone{
+            padding-left:180px;
+        }
+        #skype{
+            background: url(../images/registerForm/skype.png)no-repeat;
+        }
+        #email{
+            background: url(../images/registerForm/email.png)no-repeat;
+        }
+        #password{
+            background: url(../images/registerForm/password.png)no-repeat;
+        }
+        .btn{
+            @include font($fontSB,18px,#fff);
+            background-color: $color6;
+            border-radius: 3px;
+            box-shadow: 0 3px 0 #01a39b;
+            line-height: 24px;
+            border: none;
+            margin-top: 10px;
+            padding:0;
+        }
+        .information{
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .login{
+            margin-top: 20px;
+        }
+    }
+}
+@media only screen and(max-width:320px){
+	#mod-become-tutor{
+		#registerForm{
+            #phone{
+                padding-left: 160px;
+            }
+            input{
+                padding-left:40px;
+            }
+            .bg-select{
+                left: 40px;
+            }
+        }
+    }
+}

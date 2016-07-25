@@ -1,0 +1,26 @@
+#mod-not-found{
+	padding-top: 160px;
+	.alert{
+		padding: 0;
+		margin: 0;
+	}
+	h1{
+		@include font(null,100px,$color-text-1);
+		margin-bottom: 30px;
+	}
+	.text-alert{
+		@include font(null,20px,$color-text-1);
+		margin-bottom: 100px;
+	}
+	.home-btn{
+		width: 200px;
+		height: 50px;
+		@include font($fontSB,16px,white);
+		background: $color3;
+		text-decoration: none;
+		display: block;
+		margin: 0 auto 50px;
+		border-radius: 2px;
+		padding: 14px 0;
+	}
+}

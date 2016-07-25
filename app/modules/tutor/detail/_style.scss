@@ -1,0 +1,909 @@
+#mod-tutor-detail{
+	position:relative;
+	span{
+		&.name-certificate{
+			@include font($fontB,16px);
+		}
+	}
+	p{
+		margin-bottom:0;
+		line-height: 20px;
+	}
+	.nav > li > a:hover, .nav > li > a:focus{
+		background: none;
+	}
+	#watch-video{
+		cursor: pointer;
+		text-decoration: none;
+		padding: 5px 20px;
+		span{
+			color: #F44336;
+			display: inline-block;
+		}
+		.image{
+			display: inline-block;
+			margin-right: 20px;
+		}
+	}
+	.media-list{
+		.media{
+			background-color: #eee;
+			border-radius: 2px;
+			width: 140px;
+			height: 40px;
+		}
+	}
+	.watch-video{
+		background: #f4f7f8;
+		display: inline-block;
+		margin: 0;
+	}
+	.list-inline > li{
+		padding: 0;
+	}
+	.scroll-down{
+		position: relative;
+		top: -150px;
+	}
+
+	.rates-student{
+		margin-top: 20px;
+		ul{
+			margin-bottom: 5px;
+		}
+		.scores{
+			width: 20%;
+		}
+		.score{
+			@include font(null,30px,#444);
+			line-height: 42px;
+		}
+		.reviews{
+			width: 80%;
+			p{
+				float: left;
+				min-width: 145px;
+				margin: 0;
+				@include font($fontSB,12px);
+				line-height: 20px;
+			}
+			ul{
+				float: left;
+			}
+		}
+		.review{
+			padding: 5px 0 0 30px;
+			margin-bottom: 5px;
+		}
+		.col{
+			float: left;
+		}
+
+	}
+	.studyWidth-mb{
+		display: none;
+		@include position(fixed,null,null,0,null,1);
+		border-top: 1px solid #ddd;
+		background: white;
+		width: 100%;
+		padding: 10px 0;
+		h4{
+			&.h4Title{
+				@include font($fontB,16px,#444);
+				text-transform: capitalize;
+				text-align: center;
+			}
+			span{
+				@include font($fontSB);
+			}
+		}
+		a.btn-register{
+			background: $color3;
+			text-decoration: none;
+			max-width: 280px;
+			margin: 0 auto;
+			width: 100%;
+			display: block;
+			@include font($fontB,16px);
+			height: 50px;
+			padding: 5px;
+		}
+	}
+	audio{
+		margin-top: 25px;
+		&#audio1{
+			display: block;
+		}
+	}
+	.general{
+		padding:0;
+		&:last-child{
+			border-bottom:none;
+		}
+	}
+	ol{
+		padding-left:20px;
+	}
+	.h3Title{
+		text-transform: inherit;
+		margin: 30px 0 10px;
+		@include font($fontR,16px,$color7);
+	}
+	h3{
+		
+		&.title-for-teacher{
+			display: none;
+		}
+	}
+	h2.title-green{
+		@include font($fontB,16px,$color7);
+		border-bottom:1px solid #ccc;
+		padding-bottom:5px;
+		margin: 30px 0 20px;
+	}
+	span{
+		&.limit{
+			color:#bdbdbd;
+			margin-left: 10px;
+		}
+		&.lm-first{
+			margin-left: 0;
+		}
+		&.semibold{
+			font-family: $fontSB;
+			text-transform: capitalize;
+		}
+	}
+	a{
+		&.have-bg{
+			color:#444;
+			text-decoration: none;
+			padding:5px;
+			background-color: #dfedec;
+			margin-right:5px;
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	}
+	.teacher{
+		.avatar-teacher{
+			float: left;
+			margin-right:20px;
+		}
+		.h4Title{
+			@include font($fontB,18px,#444);
+			margin-bottom: 0;
+			text-transform: capitalize;
+		}
+		span{
+			&.vietnam{
+				color:#757575;
+				padding-top: 5px;
+				display: block;
+			}
+			&.number-time{
+				font-size: 26px;
+				font-family: $fontB;
+			}
+		}
+		p{
+			&.skill{
+				margin-top: 5px;
+				font-size: 16px;
+				line-height: 22px;
+			}
+			&.timer{
+				color: $color3;
+				margin-top: 20px;
+			}
+		}
+		.list-star{
+			margin-top: 10px;
+			ul{
+				li{
+					font-size: 12px;
+					padding:0;
+					span{
+						font-size: 16px;
+					}
+				}
+			}
+			.review-text{
+				@include position(relative,5px);
+			}
+		}
+	}
+	.education{
+		.education-text{
+			margin-bottom: 20px;
+		}
+	}
+	.title-detail-of-teacher{
+		margin-top: 40px;
+		border-bottom: 2px solid #E0E0E0;
+		height: 27px;
+		&.affix{
+			@include position(fixed,30px,null,null,0);
+			background:#fff;
+			width: 100%;
+			padding: 10px 0 0px;
+			z-index: 100;
+			border: none;
+			height: 50px;
+			background-color: #f4f7f8;
+			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+		}
+		&.affix-top{
+			.container{
+				padding: 0;
+			}
+		}
+		.scroll{
+			.navbar{
+				margin-bottom: 0;
+				min-height: 0;
+			}
+			li{
+				float: left;
+				margin-left: 30px;
+				&:first-child{
+					margin-left: 5px;
+				}
+				a{
+					@include font($fontSB,null,#555);
+					text-decoration: none;
+					padding:0 0 5px 0;
+					&:hover{
+						background: transparent;
+						color: $color7;
+						border-bottom : 1px solid $color7;
+					}
+				}
+			}
+			li.active{
+				a{
+					color: $color7;
+					border-bottom : 1px solid $color7;
+				}
+			}
+		}
+	}
+	.for-lecturers{
+		margin-top: 35px;
+		.exp-teaching{
+			.student{
+				border:1px solid #ddd;
+				line-height: 25px;
+				padding-left:5px;
+				&:last-child{
+					margin-top: 10px;
+				}
+				span{
+					&.name-student{
+						font-family: $fontB;
+					}
+				}
+			}
+		}
+		.history-work {
+			.location-work{
+				margin-top: 30px;
+				margin-bottom: 20px;
+				&:first-child{
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.location-work{
+		margin-bottom: 20px;
+	}
+	.certificate-detail{
+		margin-bottom: 30px;
+		&:last-child{
+			margin-top: 30px;
+			margin-bottom: 0;
+		}
+		.img-cer{
+			max-width: 150px;
+			margin: 20px 0 0 20px;
+			max-height: 100px;
+			overflow: hidden;
+		}
+	}
+	.score-cer{
+		.score{
+			display: inline-block;
+			margin: 10px 30px 0 0;
+			@include font(null,12px,$color-text-1);
+		}
+		.score-text{
+			@include font($fontB);
+		}
+	}
+	.subject{
+		margin-top: 10px;
+		.freetime{
+			a{
+				&.view-here{
+					background:#4CAF50;
+					color: #fff;
+					&:hover{
+						background:#4CAF8B;
+					}
+				}
+			}
+		}
+		.method-teaching{
+			ol{
+				margin-top: 15px;
+				padding-left: 15px;
+				li{
+					margin-top: 15px;
+				}
+			}
+			ul{
+				margin-top: 15px;
+				padding-left: 15px;
+				li{
+					margin-top: 0;
+				}
+			}
+			.stage{
+				&:last-child{
+					margin-top: 0px;
+				}
+			}
+			p{
+
+			}
+		}
+	}
+	.evaluate-of-student{
+		margin-top: 60px;
+		.attendance{
+			span{
+				&.green{
+					color: #66C400;
+				}
+				&.red{
+					color: #D0021B;
+				}
+			}
+		}
+		.evaluate-coment-box{
+			margin-top: 40px;
+			.text-coment{
+				display: table;
+				p{
+					margin: 0 0 10px;
+				}
+			}
+			.evaluate-coment{
+				margin-top: 20px;
+				padding-bottom: 10px;
+				border-bottom:1px solid #E0E0E0;
+				&:first-child{
+					margin-top: 0;
+				}
+				&.last-child{
+					border-bottom:none;
+				}
+				.avatar-big-student{
+					width: 100px;
+					float: left;
+				}
+				.avatar-small-student{
+					width: 70px;
+					float: left;
+				}
+				span{
+					&.limit{
+						font-size: 12px;
+						margin-left: 20px;
+					}
+				}
+				.student-avatar{
+					border-radius: 30px;
+				}
+				.coment-in-coment{
+					margin-top: 20px;
+
+					span{
+						&.limit{
+							margin-left: 0;
+						}
+					}
+				}
+			}
+			.avatar-default{
+				text-align: center;
+				width: 70px;
+				height: 70px;
+				border-radius: 70px;
+				display: inline-block;
+				@include font($fontL,22px,white);
+				text-decoration: none;
+				padding: 18px 0;
+			}
+			.read-more{
+				margin:0 auto;
+				text-decoration:none;
+				display: table;
+				padding:0 0 25px;
+				@include font($fontSB,null,#384047);
+			}
+			.avatar-small-student{
+				.avatar-default{
+					width: 50px;
+					height: 50px;
+					border-radius: 70px;
+					@include font(null,15px,white);
+					padding: 14px 0;
+				}
+			}
+			.box-write-coment{
+				.avatar-big-student{
+					width: 100px;
+					float: left;
+				}
+				.enter{
+					display: table;
+					width: 86%;
+				}
+				.box-enter{
+					height:70px;
+					width: 100%;
+					border:1px solid #E0E0E0;
+					padding:5px;
+				}
+				.list-star-evalute{
+					float: left;
+					margin-top: 10px;
+				}
+				.message{
+					@include font($fontR,12px,#F5A623);
+					margin-left: 10px;
+				}
+				.star-evalute{
+					cursor: pointer;
+				}
+				.bz-btn{
+					float: right;
+					background:$color3;
+					border-radius:3px;
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+	.blog-post{
+		padding-bottom:60px;
+		a{
+			text-decoration: none;
+		}
+		.content-blog-post{
+			margin-top: 25px;
+			.image-blog{
+				width: 175px;
+				float: left;
+			}
+			.text-coment{
+				p{
+					margin-top: 5px;
+					line-height: 20px;
+				}
+			}
+		}
+	}
+	.right{
+		width: 300px;
+		@include position(fixed,80px,null,null,50%);
+		margin-left: 200px;
+		&.affix{
+			@include position(fixed,130px);
+		}
+		.general{
+			border: none;
+		}
+		.schedule{
+			margin-bottom: 10px;
+			.image-schedule{
+				margin-right: 7px;
+			}
+			.text-schedule{
+				@include font($fontSB,null,#4a90e2);
+				text-decoration: none;
+				@include position(relative,2px);
+			}
+		}
+		p{
+			&.title-small{
+				@include font($fontSB,16px,#444);
+				font-weight: 600;
+				line-height: 22px;
+				border-bottom:1px solid #444;
+				display: table;
+				margin-bottom:10px;
+			}
+		}
+		.demo-study{
+			background:#eee;
+			margin:0 auto;
+			display: table;
+			padding: 10px;
+			.studyWith{
+				@include font(null,16px,#444);
+				margin-bottom: 10px;
+				.name{
+					font-weight: 700;
+				}
+			}
+			.form-group{
+				margin-bottom: 0;
+				input{
+					width: 100%;
+					margin-top: 8px;
+					height: 40px;
+					padding-left:35px;
+					border:1px solid #ccc;
+					&.name-user{
+						background:url(../images/username.png)no-repeat 10px;
+					}
+					&.email-user{
+						background:url(../images/mail-in-input.png)no-repeat 10px;
+					}
+					&:first-child{
+						margin-top: 0;
+					}
+					&.btn-register{
+						background-color: $color3;;
+						width: 280px;
+						margin-top: 5px;
+						@include font($fontSB,16px,#fff);
+						height: 50px;
+						line-height: 22px;
+						border:none;
+						border-radius:3px;
+						padding-left:15px;
+						&:hover{
+							opacity: 0.7;
+						}
+					}
+				}
+				textarea{
+					margin-top: 8px;
+					border:1px solid #ccc;
+					width: 100%;
+					padding-left:10px;
+				}
+			}
+		}
+		.policy-and-need{
+			background:#eee;
+			display: table;
+			margin:10px auto 0;
+			padding:10px;
+		}
+		.policy{
+			margin-bottom: 10px;
+			ul{
+				padding-left: 15px;
+				li{
+					margin-top: 7px;
+					&:first-child{
+						margin-top: 0;
+					}
+				}
+			}
+		}
+		.need-help{
+			ul{
+				padding-left:0;	
+			}
+			li{
+				list-style-type: none;
+				margin-top: 10px;
+				&:first-child{
+					margin-top: 0;
+				}
+				a{
+					text-decoration:none;
+					@include font(null,null,#42a5f5);
+					line-height: 19px;
+				}
+				img{
+					padding-right:10px;
+				}
+			}
+		}
+		.share-file{
+			background:#eee;
+			display: table;
+			margin:20px auto 0;
+			padding:10px;
+		}
+	}
+
+	.message-send-mail{
+		max-width: 600px;
+		width: 100%;
+		background:#fff;
+		margin:0 auto;
+		.head{
+			background:$color3;
+			height: 100px;
+			padding:10px 0;
+			&.red{
+				background:#ED5152;
+			}
+		}
+		.img-sendMail{
+			display: block;
+			margin:0 auto;
+		}
+		.message{
+			padding:35px 25px;
+		}
+		.text-bold{
+			@include font($fontB,18px);
+		}
+		.text-message{
+			font-size: 16px;
+		}
+		.link{
+			color: $color3;
+		}
+		.close-button{
+			@include font($fontSB,16px);
+			display: block;
+			float: right;
+			margin-top: 40px;
+			cursor: pointer;
+		}
+	}
+}
+@media only screen and(max-width:1280px){
+	#mod-tutor-detail{
+		.rates-student{
+			.review{
+				padding: 5px 0 0 10px;
+			}
+		}
+		.teacher{
+			.watch-video{
+				margin-left: 0;
+			}
+		}
+		.evaluate-of-student{
+			.evaluate-coment-box{
+				.box-write-coment{
+					.enter{
+						width: 83%;
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:1199px){
+	#mod-tutor-detail{
+		.teacher{
+			p{
+				&.timer{
+					margin-top: 0;
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:1023px){
+	#mod-tutor-detail{
+		.container{
+			.title-detail-of-teacher{
+				&.affix{
+					top:14px;
+				}
+			}
+		}
+		.teacher{
+			p{
+				&.timer{
+					margin-top: 10px;
+				}
+			}
+			.watch-video{
+				margin-left:0;
+			}
+		}
+		audio{
+			margin-top: 10px;
+		}
+	}
+}
+@media only screen and(max-width:991px){
+	#mod-tutor-detail{
+		.studyWidth-mb{
+			display: block;
+		}
+		.right{
+			display: none;
+		}
+		audio{
+			display: block;
+			margin-top: 30px;
+		}
+	}
+	
+}
+@media only screen and(max-width:767px){
+	#mod-tutor-detail{
+		.evaluate-of-student{
+			.attendance{
+				.evaluation-of-teacher{
+					width: 100%;
+				}
+			}
+			.evaluate-coment-box{
+				.evaluate-coment{
+					.avatar-big-student{
+						width: 80px;
+					}
+					.avatar-small-student{
+						width: 60px;
+					}
+				}
+			}
+		}
+		.blog-post{
+			.content-blog-post{
+				.image-blog{
+					width: 160px;
+				}
+				.text-coment{
+					display: table;
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:715px){
+	#mod-tutor-detail{
+		.rates-student{
+			.review{
+				width: 50%;
+				padding: 5px 0 0 0;
+			}
+			.scores{
+				width: 100%;
+				padding: 0;
+			}
+			.reviews{
+				width: 100%;
+				p{
+					width: 60%;
+				}
+				ul{
+					width: 40%;
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:648px){
+	#mod-tutor-detail{
+		.teacher{
+			.list-star{
+				margin-top: 0;
+			}
+			.avatar-teacher{
+				width: 36%;
+			}
+		}
+		.evaluate-of-student{
+			.evaluate-coment-box{
+				.box-write-coment{
+					display: none;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 555px) {
+	#mod-tutor-detail{
+		.rates-student{
+			.review{
+				width: 100%;
+				padding: 5px 0 0 0;
+				ul{
+					padding: 0;
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:450px){
+	#mod-tutor-detail{
+		h3{
+			&.title-for-teacher{
+				display: block;
+			}
+		}
+		.teacher{
+			.h4Title{
+				font-size: 16px;
+			}
+			.avatar-teacher{
+				width: 45%;
+				margin-right:10px;
+			}
+		}
+		audio{
+			&#audio1{
+				display: block;
+				margin-top:20px;
+			}
+		}
+		.title-detail-of-teacher{
+			display: none;
+		}
+		.evaluate-of-student{
+			.evaluate-coment-box{
+				.evaluate-coment{
+					.avatar-big-student{
+						width: 70px;
+						img,.avatar-default{
+							width: 88%;
+						}
+						.avatar-default{
+							height: auto;
+							padding: 16px 0;
+						}
+					}
+					.avatar-small-student{
+						width: 50px;
+						img,.avatar-default{
+							width: 88%;
+						}
+						.avatar-default{
+							height: auto;
+							padding: 12px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media only screen and(max-width:400px){
+	#mod-tutor-detail{
+		.teacher {
+			.list-star{
+				margin-top: 30px;
+			}
+		}
+	}
+}
+@media only screen and(max-width:320px){
+	#mod-tutor-detail{
+		.for-lecturers{
+			.skill,.certificate,.prize,.lang,.history-work,.education{
+				display: none;
+			}
+		}
+		.subject{
+			display: none;
+		}
+		.blog-post{
+			.image-blog{
+				width: 160px;
+			}
+			.text-coment{
+				p{
+					display: none;
+				}
+			}
+		}
+	}
+}

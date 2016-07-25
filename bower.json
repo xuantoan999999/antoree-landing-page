@@ -1,0 +1,68 @@
+{
+  "name": "bzSkeleton",
+  "version": "1.2.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "latest",
+    "gsap": "latest",
+    "jqueryui": "latest",
+    "jquery-mousewheel": "latest",
+    "jrespond": "latest",
+    "magnific-popup": "latest",
+    "malihu-custom-scrollbar-plugin": "latest",
+    "is_js": "isjs#latest",
+    "cropper": "latest",
+    "slick-carousel": "latest",
+    "waitForImages": "latest",
+    "scrollmagic": "latest",
+    "fancybox3": "latest",
+    "EaselJS": "easeljs#~0.8.2",
+    "TweenJS": "~0.6.2",
+    "PreloadJS": "~0.6.2",
+    "jquery": "~2.2.0",
+    "select2": "^4.0.1",
+    "tooltipster": "^3.3.0",
+    "jquery-gridder": "^1.4.2",
+    "angular": "^1.5.7",
+    "angular-messages": "^1.5.7"
+  },
+  "overrides": {
+    "parallax": {
+      "main": [
+        "deploy/jquery.parallax.min.js"
+      ]
+    },
+    "jqueryui": {
+      "main": [
+        "ui/minified/core.min.js",
+        "ui/minified/widget.min.js",
+        "ui/minified/mouse.min.js",
+        "ui/minified/position.min.js",
+        "ui/minified/draggable.min.js",
+        "ui/minified/droppable.min.js",
+        "ui/minified/resizable.min.js",
+        "ui/minified/selectable.min.js",
+        "ui/minified/sortable.min.js",
+        "ui/minified/datepicker.min.js",
+        "themes/base/jquery-ui.css",
+        "themes/base/datepicker.css"
+      ]
+    },
+    "scrollmagic": {
+      "main": [
+        "scrollmagic/uncompressed/ScrollMagic.js",
+        "scrollmagic/uncompressed/plugins/animation.gsap.js",
+        "scrollmagic/uncompressed/plugins/debug.addIndicators.js"
+      ]
+    },
+    "magnific-popup": {
+      "main": [
+        "dist/jquery.magnific-popup.min.js",
+        "dist/magnific-popup.css"
+      ]
+    }
+  },
+  "devDependencies": {
+    "mocha": "latest"
+  }
+}

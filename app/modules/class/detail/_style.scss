@@ -1,0 +1,231 @@
+#mod-class-detail{
+	a{
+		text-decoration: none;
+	}
+	.content{
+		max-width: 1275px;
+		margin: 0 auto 20px;
+		padding: 0 10px;
+		overflow: auto;
+	}
+	.breadcrumb{
+		background: white;
+		margin-bottom: 40px;
+		padding-left: 0;
+		.link{
+			@include font($fontR,null,$color3);
+			text-decoration: none;
+		}
+	}
+	.breadcrumb > li + li:before{
+		content: ">";
+	}
+	.penalty-section{
+		font-size: 12px;
+		.image{
+			margin-right: 5px;
+		}
+	}
+	.penalty{
+		color: #f44336;
+	}
+	.course-comunication{
+		margin-bottom: 30px;
+		.time{
+			margin-bottom: 5px;
+		}
+		.course{
+			margin-right: 65px;
+			.text{
+				@include font($fontB,16px,#384047);
+				margin-bottom: 5px;
+			}
+		}
+		.member{
+			margin-right: 60px;
+			margin-bottom: 30px;
+			color: #384047;
+			.image-avatar{
+				margin-right: 10px;
+				img{
+					width: 35px;
+					height: 35px;
+					border-radius: 100%;
+				}
+			}
+			.name{
+				max-width: 161px;
+				a{
+					@include font($fontB,null,#384047);
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	.note{
+		margin-bottom: 30px;
+		@include font(null,12px,#999,400);
+		.edit{
+			display: inline-block;
+			cursor: text;
+		}
+		.edit:focus{
+			background: #D9F3E9;
+		}
+		[contenteditable=true]:empty:before{
+			content: attr(placeholder);
+			display: block;
+			@include font($fontR,12px,#999)
+		}
+	}
+	.list-btn{
+		@include position(absolute,2px,null,null,2px,1);
+		cursor: pointer;
+		button{
+			background: none;
+			border: none;
+			color: white;
+			padding: 0;
+			margin: 0 5px;
+		}
+		.hover-place{
+			width: 10px;
+			height: 10px;
+			background: url('../images/New-Layout/delete-lesson-background.png') 2px no-repeat #e0e0e0;
+		}
+		.button-place{
+			background-color: #f44336;
+			padding: 10px 5px;
+			display: none;
+		}
+	}
+	.list-btn:hover{
+		.hover-place{
+			display: none;
+		}
+		.button-place{
+			display: inline-flex;
+		}
+	}
+	.lesson-number{
+		@include position(relative);
+	}
+	.lesson-table{
+		border: 1px solid #bdbdbd;
+		p{
+			margin: 0;
+		}
+		td{
+			@include font($fontR,12px,#384047);
+
+		}
+		.empty{
+			@include font(null,null,#999);
+		}
+		.header{
+			background-color: #f4f7f8;
+			td{
+				min-width: 162px;
+				padding: 5px 8px;
+			}
+			p:first-child{
+				margin-bottom: 5px;
+			}
+			.hours-total{
+				font-family: $fontB;
+			}
+		}
+		.penalty-table{
+			background-color: #f9f3f3;
+			td{
+				padding: 5px 13px;
+				color: #f44336;
+			}
+		}
+		.content-table{
+			td{
+				vertical-align: top;
+				padding: 12px 5px;
+			}
+			.date-time-picker,.hour-table,.lesson-name,.recommend{
+				&:focus{
+					background: #D9F3E9;
+				}
+			}
+			.popup-show{
+				cursor: pointer;
+			}
+		}
+		.add-class{
+			a{
+				@include font($fontR,12px,$color3);
+				text-decoration: none;
+			}
+			td{
+				padding: 10px;
+			}
+			.image-add{
+				margin-right: 5px;
+				width: 17px;
+				height: 17px;
+			}
+		}
+		.star{
+			ul{
+				margin-bottom: 0;
+			}
+		}
+		.list-inline{
+			margin-left: 0;
+		}
+		.none-bold{
+			@include font($fontR,null,#384047);
+		}
+		[contenteditable=true]:empty:before{
+			content: attr(placeholder);
+			display: block;
+			color: #999;
+		}
+		.lesson{
+			width: 60px;
+		}
+		.date-time{
+			width: 80px;
+		}
+		.duration{
+			width: 60px;
+		}
+		.table-content{
+			width: 160px;
+		}
+		.learner-rate{
+			width: 250px;
+		}
+		.tutor-rate{
+			width: 250px;
+		}
+		.learner-recommend{
+			width: 200px;
+		}
+		.tutor-recommend{
+			width: 200px;
+		}
+		.list-inline{
+			li{
+				padding: 0;
+			}
+		}
+	}
+	.glyphicon-star-empty:before,.glyphicon-star:before{
+		content: "";
+		width: 22px;
+		height: 22px;
+		display: inline-block;
+	}
+	.glyphicon-star:before{
+		background: url('../images/New-Layout/star_review.png');
+	}
+	.glyphicon-star-empty:before{
+		background: url('../images/New-Layout/star_empty_review.png');
+	}
+}

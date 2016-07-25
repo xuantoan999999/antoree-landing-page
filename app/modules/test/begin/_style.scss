@@ -1,0 +1,31 @@
+#mod-test-begin{
+	@include font(null,16px);
+	margin-bottom: 20px;
+	.nav{
+		@include position(fixed,25px,null,null,250px);
+		a{
+			@include font($fontB,null,$color-text-1);
+			text-decoration: none;
+		}
+		span{
+			margin: 0 10px;
+		}
+	}
+	.title{
+		@include font(null,16px);
+		margin-bottom: 50px;
+	}
+	.green-color{
+		@include font($fontB,20px,$color3);
+	}
+	.btn{
+		padding: 10px 25px;
+		text-decoration: none;
+		border-radius: 2px;
+		background: $color3;
+		@include font($fontB,16px,white);
+	}
+	.text-start{
+		margin-bottom: 245px;
+	}
+}

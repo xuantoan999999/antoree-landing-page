@@ -1,0 +1,88 @@
+// Variables
+$anim-page-ease-in: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+$anim-page-ease-out: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+$anim-page-ease-inout: cubic-bezier(0.250, 0.460, 0.450, 0.940);
+// PAGE TRANSITION
+/* ANIMATION animFade */
+.full-frame{
+	.animFade{
+		@include position(absolute,null,null,null,0);
+		@include sizeEx(100%);
+	}
+	.animFade.ng-enter,
+	.animFade.ng-leave {
+		transition:all 0.5s $anim-page-ease-inout;
+	}
+	.animFade.ng-enter {
+		opacity: 0;
+	}
+	.animFade.ng-enter-active {
+		opacity: 1;
+	}
+	.animFade.ng-leave {
+		opacity: 1;
+	}
+	.animFade.ng-leave-active {
+		opacity: 0;
+	}
+	/* ANIMATION animSlideLeft, animSlideRight */
+	.animSlideLeft,.animSlideRight{
+		@include position(absolute,0,null,null,0);
+		@include sizeEx(100%);
+	}
+	.animSlideLeft.ng-enter,
+	.animSlideLeft.ng-leave,
+	.animSlideRight.ng-enter,
+	.animSlideRight.ng-leave  {
+		transition:all 0.5s $anim-page-ease-inout;
+		transform-style: preserve-3d;
+	}
+	.animSlideLeft.ng-enter {
+		transform: translate3d(100%,0,0);
+	}
+	.animSlideLeft.ng-enter.ng-enter-active {
+		transform: translate3d(0,0,0);
+	}
+	.animSlideLeft.ng-leave.ng-leave-active {
+		transform: translate3d(-100%,0,0);
+	}
+	.animSlideRight.ng-enter {
+		transform: translate3d(-100%,0,0);
+	}
+	.animSlideRight.ng-enter.ng-enter-active {
+		transform: translate3d(0,0,0);
+	}
+	.animSlideRight.ng-leave.ng-leave-active {
+		transform: translate3d(100%,0,0);
+	}
+	/* ANIMATION animSlideUp, animSlideDown */
+	.animSlideUp,.animSlideDown{
+		@include position(absolute,0,null,null,0);
+		@include sizeEx(100%);
+	}
+	.animSlideUp.ng-enter,
+	.animSlideUp.ng-leave,
+	.animSlideDown.ng-enter,
+	.animSlideDown.ng-leave  {
+		transition:all 0.5s $anim-page-ease-inout;
+		transform-style: preserve-3d;
+	}
+	.animSlideUp.ng-enter {
+		transform: translate3d(0,100%,0);
+	}
+	.animSlideUp.ng-enter.ng-enter-active {
+		transform: translate3d(0,0,0);
+	}
+	.animSlideUp.ng-leave.ng-leave-active {
+		transform: translate3d(0,-100%,0);
+	}
+	.animSlideDown.ng-enter {
+		transform: translate3d(0,-100%,0);
+	}
+	.animSlideDown.ng-enter.ng-enter-active {
+		transform: translate3d(0,0,0);
+	}
+	.animSlideDown.ng-leave.ng-leave-active {
+		transform: translate3d(0,100%,0);
+	}
+}

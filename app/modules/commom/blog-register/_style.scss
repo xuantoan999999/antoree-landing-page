@@ -1,0 +1,48 @@
+#mod-blog-register{
+	@include font(null,null,white);
+	height: 250px;
+	background: url('../images/New-Layout/world-background.png') center bottom no-repeat $color3;
+	background-size: cover;
+	padding-top: 50px;
+	h1,span{
+		@include font($fontSB,24px,white);
+		margin-bottom: 40px;
+	}
+	#register{
+		max-width: 590px;
+		padding: 0 20px;
+		margin: 0 auto;
+	}
+	.header{
+		@include font($fontSB,24px,white);
+		margin-bottom: 40px;
+		padding: 0 37.5px;
+	}
+	.email{
+		width: 75%;
+		height: 50px;
+		border: 1px solid white;
+		border-radius: 4px 0 0 4px;
+		background: transparent;
+		@include font(null,18px,white,400);
+		padding: 15px 10px;
+	}
+	.email::placeholder{
+		color: white;
+	}
+	.register-btn{
+		background-color: white;
+		border-radius: 0 4px 4px 0;
+		@include font($fontSB,16px,$color7);
+		width: 25%;
+		height: 50px;
+		border: none;
+	}
+}
+@media only screen and (max-width: 500px) {
+	#mod-blog-register{
+		.header{
+			@include font(null,18px,white);
+		}
+	}
+}

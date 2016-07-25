@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hướng dẫn sử dụng bzSkeleton (Yeoman Webapp)</title>
+	{% include: 'commom/head-bundle.tpl' %}
+</head>
+<body>
+	<div class="container">
+		<h1>GIT: <a target="_blank" href="https://bitbucket.org/tindl88/bzskeleton">https://bitbucket.org/tindl88/bzskeleton</a></h1>
+		<fieldset>
+			<legend><strong>Yêu cầu</strong></legend>
+			<p>Lưu ý: Các phần mềm khi cài đặt đều có tính năng add <strong>PATH</strong> emviroment, nhớ chọn tính năng này.</p>
+			<ul>
+				<li>NodeJs: <a target="_blank" href="http://nodejs.org/">http://nodejs.org/</a></li>
+				<li>Git: <a target="_blank" href="http://git-scm.com/download/">http://git-scm.com/download/</a></li>
+				<li>Python: <a target="_blank" href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></li>
+				<li>Ruby: <a target="_blank" href="http://rubyinstaller.org/">http://rubyinstaller.org/</a></li>
+				<li>Avocode: <a target="_blank" href="http://avocode.com/">Cắt hình từ photoshop, sketch</a></li>
+				<li>Sublime Text: <a target="_blank" href="http://www.sublimetext.com/">Trình soạn thảo code</a></li>
+				<li>Pngyu: <a target="_blank" href="http://nukesaq88.github.io/Pngyu/">Nén hình PNG</a></li>
+				<li>Faststone Capture & Faststone Resizer: <a target="_blank" href="http://www.faststone.org/download.htm">Lấy mã màu, đo kích thước, chụp ảnh màn hình, thay đổi kích thước hình... (Window)</a></li>
+				<li>Convert font:
+					<ul>
+						<li><a href="fontie.flowyapps.com">fontie.flowyapps.com</a></li>
+						<li><a href="fontsquirrel.com">fontsquirrel.com</a></li>
+						<li><a href="onlinefontconverter.com">onlinefontconverter.com</a></li>
+						<li><a href="web-font-generator.com">web-font-generator.com</a></li>
+						<li><a href="https://github.com/ananthakumaran/webify">Webify (Window)</a></li>
+					</ul>
+				</li>
+				<li>Long path Tool: <a target="_blank" href="http://longpathtool.com/">Xóa file, folder có đường dẫn quá dài mà window không thể xóa</a></li>
+			</ul>
+			<p>Các module cần thiết cho <strong>Yeoman Webapp</strong></p>
+			<ul>
+				<li><code>sudo npm i -g yo</code></li>
+				<li><code>sudo npm i -g grunt-cli</code></li>
+				<li><code>sudo npm i -g bower</code></li>
+				<!-- <li><code>npm i -g protractor</code></li> -->
+				<!-- <li><code>npm i -g karma</code></li> -->
+				<li><code>sudo npm i -g electron</code></li>
+				<li><code>sudo npm install -g electron-prebuilt</code></li>
+				<li><code>npm install -g generator-webapp</code></li>
+				<li><code>gem i compass</code></li>
+			</ul>
+			<p><strong>Lưu ý:</strong> có thể cài đặt nhiều module cùng lúc.</p>
+			<code>
+				npm i -g yo bower grunt-cli ...
+			</code>
+		</fieldset>
+		<h3>Command Line:</h3>
+		<fieldset>
+			<legend><strong>NPM</strong></legend>
+			<ul>
+				<li><code>npm i --save-dev [name]</code> - Cài 1 module vào dự án.</li>
+				<li><code>npm i -g [name]</code> - Cài 1 module vào hệ thống.</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend><strong>Bower</strong></legend>
+			<p>Bower sẽ kết nối tới GIT,  tìm kiếm và cài đặt các thư viện Js</p>
+			<ul>
+				<li><code>bower s [name]</code> - Tìm một thư viện theo tên (Ví dụ: <code>bower s jquery</code>)</li>
+				<li><code>bower i  --save [name]</code> - Cài đặt và tích hợp vào sourcecode khi biên dịch.</li>
+				<li><code>bower i  --save-dev [name]</code> - Cài đặt sẵn nhưng không tích hợp vào sourcecode khi biên dịch.</li>
+				<li><code>bower uni --save [name]</code> hoặc <code>bower uni --save-dev [name]</code> - Gỡ cài đặt với tham số tương ứng khi cài.</li>
+				<li><code>bower register [name] [link-git]</code> - Đăng ký thư viện để có thể cài đặt từ bower.</li>
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend><strong>Grunt</strong></legend>
+			<ul>
+				<li><code>grunt serve</code> - Môi trường viết code</li>
+				<li><code>grunt build</code> - Biên dịch (Backend sẽ làm việc dựa trên bản biên dịch này)</li>
+				<li><code>grunt clear</code> - Dọn dẹp các thư mục tạm (Thường dùng khi push code lên GIT, SVN)...</li>
+				<li><code>grunt android</code> - Viết ứng dụng di động cho android</li>
+				<li><code>grunt ios</code> - Viết ứng dụng di động cho iOS</li>
+				<li><code>grunt desktop</code> - Viết ứng dụng desktop</li>
+				<li><code>grunt e2e</code> - End-to-end test</li>
+				<li><code>grunt unit</code> - Unit test</li>
+				<li><code>grunt zip</code> - Biên dịch và đóng gói thành file zip</li>
+				<li><code>grunt ngtemplates</code> - Tạo templateCache cho AngularJs</li>
+				<li><code>grunt bowerInstall</code> - Cập nhật danh sách các thư viện JS được dùng trong dự án, Lệnh này sẽ tự động chạy khi đã chạy sẵn lệnh <code>grunt serve</code>.</li>
+				<li><code>grunt htmlmin</code> - Định dạng html về 1 dòng</li>
+				<li><code>grunt svgmin</code> - Nén file .svg</li>
+			</ul>
+		</fieldset>
+		<h2>Các thư viện JS đã tích hợp trong bzSkeleton</h2>
+		<ul>
+			<li><a>angular</a></li>
+			<li><a>angular-animate</a></li>
+			<li><a>angular-cache</a></li>
+			<li><a>angular-google-analytics</a></li>
+			<li><a>angular-local-storage</a></li>
+			<li><a>angular-messages</a></li>
+			<li><a>angular-mocks</a></li>
+			<li><a>angular-resource</a></li>
+			<li><a>angular-sanitize</a></li>
+			<li><a>angular-toastr</a></li>
+			<li><a>angular-translate</a></li>
+			<li><a>angular-ui-router</a></li>
+			<li><a>bootstrap-sass-official</a></li>
+			<li><a>cropper</a></li>
+			<li><a>fabric.js</a></li>
+			<li><a>fancybox3</a></li>
+			<li><a>gsap</a></li>
+			<li><a>is.js</a></li>
+			<li><a>jquery</a></li>
+			<li><a>jquery-mousewheel</a></li>
+			<li><a>jqueryui</a></li>
+			<li><a>jrespond</a></li>
+			<li><a>magnific-popup</a></li>
+			<li><a>malihu-custom-scrollbar-plugin</a></li>
+			<li><a>ng-facebook</a></li>
+			<li><a>ngprogress</a></li>
+			<li><a>phaser-dist</a></li>
+			<li><a>scrollmagic</a></li>
+			<li><a>slick-carousel</a></li>
+			<li><a>underscore</a></li>
+			<li><a>unveil</a></li>
+			<li><a>waitForImages</a></li>
+		</ul>
+		<h2>Cấu trúc thư mục</h2>
+		<ul>
+			<li><a>app</a>
+				<ul>
+					<li><a>angularjs</a> - Dự án AngularJs, Hybrid App</li>
+					<li><a>data</a> - Chứa hình ảnh, dữ liệu demo cho website</li>
+					<li><a>fonts</a> - Chứa các font được sử dụng trong dự án</li>
+					<li><a>images</a>
+						<ul>
+							<li><a>generated</a> - Chứa sprites (Kỹ thuật tăng hiệu suất tải trang)</li>
+							<li><a>icons</a> - Chứa các icons để tạo sprites</li>
+						</ul>
+					</li>
+					<li><a>modules</a> - Chứa các modulecủa website, dùng include để nhúng vào html, dành cho dự án thường</li>
+					<li><a>scripts</a>
+						<ul>
+							<li><a>libs</a> - Chứa các thư viện khác không có trên GIT</li>
+							<li><a>helpers.js</a> - Các hàm tiện ích</li>
+							<li><a>languges.js</a> - Dữ liệu đa ngôn ngữ</li>
+							<li><a>main.js</a> - Khai báo các đoạn script dùng chung của tất cả các trang</li>
+							<li><a>variables.js</a> - Cấu hình website</li>
+						</ul>
+					</li>
+					<li><a>styles</a>
+						<ul>
+							<li><a>base</a>
+								<ul>
+									<li><a>_base.scss</a> - Style các thẻ html</li>
+									<li><a>_form.scss</a> - Style các thẻ form và input</li>
+								</ul>
+							</li>
+							<li><a>component</a>
+								<ul>
+									<li><a>_accordion.scss</a> - Style các kiểu popup</li>
+									<li><a>_customform.scss</a> - Style radio, checkbox</li>
+									<li><a>_loading.scss</a> - Style các trạng thái loading</li>
+									<li><a>_message.scss</a> - Style các thông báo (Lỗi, thành công...)</li>
+									<li><a>_pagination.scss</a> - Style phân trang</li>
+									<li><a>_popup.scss</a> - Style các loại popup</li>
+									<li><a>_tab.scss</a> - Style tab</li>
+								</ul>
+							</li>
+							<li><a>layout</a>
+								<ul>
+									<li><a>_layout.scss</a> - Style bố cục trang web và những thành phần chung</li>
+								</ul>
+							</li>
+							<li><a>tools</a>
+								<ul>
+									<li><a>_animation.scss</a> - Hiệu ứng chuyển trang, chuyển động dùng CSS3</li>
+									<li><a>_font.scss</a> - Đăng ký các font được sử dụng trong dự án</li>
+									<li><a>_helpers.scss</a> - Các class được style sẵn</li>
+									<li><a>_mixins.scss</a> - Các hàm rút gọn code css</li>
+									<li><a>_settings.scss</a> - Khai báo biến sử dụng trong Sass</li>
+									<li><a>_responsive.scss</a> - Responsive cho class .container</li>
+									<li><a>_settings.scss</a> - Các biến cấu hình cho SASS</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li><a>bower_components</a> - Chứa các thư viện được dùng trong dự án (đi kèm với bower.json)</li>
+					<li><a>dist</a> - Thư mục html Back-End sẽ làm việc</li>
+					<li><a>node_modules</a> - Các node module được sử dụng trong dự án (đi kèm với package.json)</li>
+				</ul>
+			</li>
+			<li><a>.gitignore</a> - Các tập tin và thư mục sẽ không được Push lên GIT</li>
+			<li><a>bower.json</a> - Chứa các thư viện được dùng trong dự án (đi kèm với bower_components)</li>
+			<li><a>Gruntfile.js</a> - Cấu hình của các module trong thư mục node_modules</li>
+			<li><a>package.json</a> - Các module được sử dụng trong dự án (đi kèm với node_modules)</li>
+		</ul>
+	</div>
+	{% include: 'commom/script-bundle.tpl' %}
+</body>
+</html>

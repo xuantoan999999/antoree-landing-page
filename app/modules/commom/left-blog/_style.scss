@@ -1,0 +1,116 @@
+#mod-questionleft{
+	width: 30%;
+	@include position(absolute,172px,null,null,50%);
+	margin-left: 300px;
+	width: 300px;
+	&.affix{
+		@include position(fixed,60px,null,null,null,100);
+	}
+	.text{
+		border-radius: 0 2px 2px;
+		background-color: #f2f2ee;
+		margin-bottom: 30px;
+		.header{
+			@include font(null,null,$color-text-1);
+		}
+		.input-text{
+			padding: 10px 15px;
+			width: 100%;
+			margin-bottom: 10px;
+			border: 1px solid #e0e0e0;
+			border-radius: 2px;
+		}
+		.input-submit{
+			width: 100%;
+			@include font($fontSB,16px,white);
+			background-color: #d0021b;
+			border-radius: 3px;
+			border: none;
+			padding: 10px 0;
+			margin: 10px 0;
+		}
+	}
+	.form-1{
+		padding: 20px 10px;
+		.header{
+			@include font($fontSB,16px, $color-text-1);
+		}
+	}
+	.form-2{
+		padding: 20px 10px;
+		p{
+			@include font(null,null,$color-text-1);
+		}
+		.header{
+			@include font($fontB,18px, $color-text-1);
+		}
+		.input-text{
+			padding-left: 45px;
+		}
+		.name{
+			background: url('../images/home_form_ic_person.png') no-repeat 13px 50% white;
+		}
+		.phone{
+			background: url('../images/home_form_ic_phone.png') no-repeat 13px 50% white;
+		}
+		.email{
+			background: url('../images/home_form_ic_mail.png') no-repeat 13px 50% white;
+		}
+	}
+	.link-news{
+		margin-bottom: 30px;
+		a{
+			text-decoration: none;
+			display: block;
+			@include font(null,null,$color-text-1);
+		}
+		.header{
+			@include font($fontSB,null,$color3);
+			padding-bottom: 5px;
+			border-bottom: 1px solid #e0e0e0;
+		}
+		.left{
+			width: 50px;
+			img{
+				width: 40px;
+				height: 40px;
+				border-radius: 40px;
+			}
+		}
+		.right{
+			width: 250px;
+		}
+		.news-text{
+			@include font($fontI,16px);
+			.head-dot{
+				margin: 0 -3px 10px -10px;
+			}
+			.tail-dot{
+				margin-bottom: 10px;
+			}
+		}
+		.name{
+			@include font(null,null,#999);
+		}
+		.list{
+			padding-top: 20px;
+		}
+		.item{
+			margin-bottom: 20px;
+		}
+		.number{
+			background-color: #f4f7f8;
+			padding: 8px 15px;
+			border-radius: 100%;
+			display: inline-block;
+			@include font($fontSB,18px,$color3);
+			width: 40px;
+			height: 40px;
+		}
+	}
+}
+@media only screen and (max-width: 1185px) {
+	#mod-questionleft{
+		display: none;
+	}
+}

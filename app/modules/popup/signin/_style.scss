@@ -1,0 +1,86 @@
+.form-login{
+    margin:0 auto;
+    max-width: 350px;
+    background:#fff;
+    border-radius:3px;
+    padding:25px;
+    position:relative;
+    .form-group{
+        margin-bottom: 9px;
+    }
+    .border-red{
+        border:1px solid red;
+        box-shadow:0px 0px 2px 0px red;
+    }
+    .btn-reg{
+        display: table;
+        margin:10px auto 0;
+    }
+    hr{
+        width: 100%;
+        background:#e0e0e0;
+        margin-top: 50px;
+        margin-bottom:0;
+        position: relative;
+        height: 1px;
+        top:-15px;
+        &.or{
+            width: 90%;
+        }
+    }
+    color:#999999;
+    p.or{
+        background:#fff;
+        position:relative;
+        top: -25px;
+        background:#fff;
+        margin:0 auto;
+        display: table;
+        padding:0 10px;
+    }
+    .have-account{
+        text-align: left;
+        margin-bottom:0;
+        a{
+            text-decoration: none;
+            color: $color7;
+        }
+    }
+    .helper{
+        margin:15px 0;
+        input[type='checkbox']{
+            height: unset;
+            opacity: 1;
+        }
+    }
+    a.helper{
+        text-decoration: none;
+        color: $color7;
+    }
+    .message-error{
+        @include font($fontI,12px);
+        color: red;
+        display: none;
+    }
+    input{
+        padding-left:35px;
+        height: 40px;
+        &#exampleInputEmail{
+            background:url(../images/home_form_ic_mail.png)no-repeat 10px;
+        }
+        &#exampleInputPass{
+            background:url(../images/ic-lock.png)no-repeat 10px;
+        }
+        &#btDangKyBanner{
+            @include font(null,15px,#fff);
+            padding-left:12px;
+            width: 100%;
+            text-transform: uppercase;
+            background: $color3;
+            border:none;
+        }
+    }
+    .mfp-close{
+        display: none;
+    }
+}

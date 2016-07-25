@@ -1,0 +1,80 @@
+/****************************************************************************************
+Description: Biên dịch các file được import thành 1 file CSS
+*****************************************************************************************/
+@import "tools/settings";
+@import "tools/mixins";
+// bower:scss
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "../../bower_components/select2/src/scss/core.scss";
+// endbower
+
+// Base
+@import "tools/font";
+@import "base/base";
+@import "base/form";
+@import "tools/helpers";
+@import "tools/responsive";
+@import "tools/animation";
+
+// Component
+@import "component/popup";
+@import "component/tab";
+@import "component/accordion";
+@import "component/pagination";
+@import "component/customform";
+@import "component/loader";
+@import "component/message";
+
+// Modules
+@import "../modules/commom/header/style";
+@import "../modules/commom/footer/style";
+@import "../modules/commom/left-blog/style";
+@import "../modules/commom/blog-header/style";
+@import "../modules/commom/blog-register/style";
+
+@import "../modules/home/style";
+@import "../modules/landing-page/style";
+@import "../modules/blog/home/style";
+@import "../modules/blog/detail/style";
+@import "../modules/blog/list/style";
+@import "../modules/blog/post/style";
+@import "../modules/blog/blog-success/style";
+
+@import "../modules/tutor/detail/style";
+@import "../modules/tutor/profile/style";
+@import "../modules/tutor/registerSuccess/style";
+@import "../modules/tutor/becomeTutor/style";
+@import "../modules/tutor/list/style";
+@import "../modules/tutor/email-confirm/style";
+
+@import "../modules/become-tutor/style";
+@import "../modules/become-tutor/step-1/style";
+@import "../modules/become-tutor/step-2/style";
+@import "../modules/become-tutor/step-3/style";
+
+@import "../modules/test/begin/style";
+@import "../modules/test/end/style";
+@import "../modules/test/english/style";
+@import "../modules/test/question/style";
+@import "../modules/test/result/style";
+@import "../modules/test/list-test/style";
+
+@import "../modules/class/detail/style";
+@import "../modules/class/list/style";
+
+@import "../modules/help/style";
+@import "../modules/account/style";
+
+@import "../modules/popup/register/style";
+@import "../modules/popup/signin/style";
+@import "../modules/popup/editPass/style";
+@import "../modules/verify-account/style";
+@import "../modules/not-found/style";
+
+@import "../modules/payment-info/style";
+@import "../modules/submit-review/style";
+@import "../modules/submit-time/style";
+
+// Layout
+@import "layout/heading";
+@import "layout/layout";

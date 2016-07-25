@@ -1,0 +1,99 @@
+#mod-step-1{
+	#alert-about,#avatar-alert{
+		@include font(null,12px,#f44336);
+		display: none;
+	}
+	#avatar-alert{
+		margin-top: 20px;
+	}
+	.file-upload{
+		@include position(relative,10px);
+		span{
+			@include font(null,16px,$color7);
+			border: 1px solid $color6;
+			background-color: white;
+			border-radius: 2px;
+			cursor: pointer;
+			padding: 5px 15px;
+		}
+		.upload{
+			@include position(absolute,0,null,null,0);
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			font-size: 20px;
+			cursor: pointer;
+			opacity: 0;
+			filter: alpha(opacity=0);
+		}
+	}
+	.avatar{
+		margin-bottom: 30px;
+	}
+	.info{
+		margin-bottom: 20px;
+	}
+	.form-group{
+		background-color: white;
+		border: 1px solid #bdbdbd;
+		border-radius: 2px;
+		padding: 5px 20px 5px 10px;
+		@include font(null,14px,#999);
+		line-height: 20px;
+		width: 100%;
+		input{
+			border: none;
+		}
+	}
+	.facebook{
+		input{
+			border: none;
+			width: 100%;
+		}
+	}
+	.s1{
+		background: url("../images/combo-box.png") no-repeat 95% center white;
+	}
+	.s2{
+		background: url("../images/combo-box.png") no-repeat 95% center white;
+		border-right: 1px solid #bdbdbd;
+		width: 100px;
+		border: none;
+		margin-right: 10px;
+	}
+	.phone-number{
+		border-left: 1px solid #bdbdbd;
+		padding-left: 15px;
+		width: 175px;
+	}
+	#register{
+		#comment{
+			width: 100%;
+			height: 160px;
+			background-color: white;
+			border: 1px solid #bdbdbd;
+			border-radius: 2px;
+			padding: 10px;
+		}
+	}
+	.next{
+		margin-bottom: 50px;
+	}
+	.stick{
+		@include position(absolute);
+		width: 1px;
+		height: 22px;
+		background: #999;
+	}
+	.birthday{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#mod-step-1{
+		.images,.text{
+			text-align: center;
+			margin-bottom: 10px;
+		}
+	}
+}

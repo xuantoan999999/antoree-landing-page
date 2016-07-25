@@ -1,0 +1,106 @@
+.become-tutor-commom{
+	color: $color-text-1;
+	padding-top: 50px;
+	.txt{
+		font-size: 12px;
+	}
+	.header{
+		margin-bottom: 50px;
+		.h2Title{
+			line-height: 34px;
+			@include font($fontB,24px,#444);
+			margin: 0;
+			text-transform: capitalize;
+		}
+	}
+	.tooltip-popup{
+		margin-left: 5px;
+		cursor: pointer;
+	}
+	.content{
+		max-width: 640px;
+		width: 100%;
+		margin: 0 auto;
+		position: relative;
+	}
+	.step-list{
+		color: #444;
+		background: #eee;
+		margin-bottom: 50px;
+		&.complete{
+			background: $color6;
+			color: white;
+		}
+		
+		.number{
+			display: inline-block;
+			@include font(null,28px,null);
+			margin: 6px 15px;
+			vertical-align: middle;
+		}
+		.info{
+			display: inline-block;
+			@include position(relative,2px);
+		}
+		.step{
+			float: left;
+			height: 50px;
+			padding-right: 20px;
+			&.active{
+				background: $color6;
+				color: white;
+				.status{
+					background: url('../images/step-list-active.png');
+				}
+			}
+		}
+	}
+	.error{
+		border: 1px solid #f44336;
+	}
+	.default{
+		border: 1px solid #bdbdbd;
+	}
+	.tooltip-text{
+		display: none;
+	}
+	.head{
+		@include font($fontB,14px,$color-text-1);
+		line-height: 20px;
+		margin-bottom: 10px;
+	}
+	.btn-submit{
+		background: $color6;
+		@include font($fontB,16px,white);
+		line-height: 22px;
+		border: none;
+		width: 150px;
+		height: 50px;
+		border-radius: 2px;
+	}
+	.step-list-arrow{
+		width: 20px;
+		height: 50px;
+		background: #eee;
+		&.unactive{
+			background: url('../images/New-Layout/step-list-active.png') center center repeat $color3;
+			background-size: cover;
+		}
+		&.active{
+			background: $color3;
+		}
+	}
+}
+@media only screen and (max-width: 630px) {
+	.become-tutor-commom{
+		.step-list{
+			.step{
+				text-align: center;
+				width: 100%;
+			}
+			.images-active{
+				display: none;
+			}
+		}
+	}
+}

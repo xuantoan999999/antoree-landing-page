@@ -1,0 +1,93 @@
+#mod-submit-review{
+	max-width: 640px;
+	padding: 0 20px;
+	margin: 30px auto 50px;
+	strong{
+		font-family: $fontB;
+	}
+	.h2Title{
+		@include font($fontB,24px,$color3);
+		margin: 0 0 30px;
+	}
+	.course-info-text{
+		margin-bottom: 50px;
+	}
+	.course-info-list{
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+		border-bottom: 1px solid #e0e0e0;
+		p{
+			margin: 0;
+		}
+		.user-image{
+			width: 35px;
+			height: 35px;
+			border-radius: 35px;
+			margin-right: 10px;
+		}
+		.name{
+			font-family: $fontB;
+		}
+		.course-info-item{
+			margin-right: 50px;
+		}
+	}
+	.course-info{
+		margin: 0 0 30px;
+	}
+	.course-name{
+		margin-bottom: 20px;
+	}
+	.rate-learner{
+		.rate{
+			.text{
+				width: 150px;
+				margin-bottom: 30px;
+			}
+		}
+		.list-inline{
+			li{
+				padding: 0;
+			}
+			img{
+				width: 22px;
+				height: 22px;
+			}
+		}
+		.star{
+			margin-right: 40px;
+		}
+	}
+
+	.rate-textarea{
+		width: 100%;
+		border-radius: 2px;
+		border: 1px solid #e0e0e0;
+		height: 120px;
+		margin-top: 10px;
+		padding: 10px;
+	}
+	.submit-btn{
+		width: 100%;
+		border: none;
+		background-color: $color3;
+		padding: 15px 0;
+		@include font($fontSB,16px,white);
+		border-radius: 2px;
+	}
+	.glyphicon-star-empty:before,.glyphicon-star:before{
+		content: "";
+		width: 30px;
+		height: 28px;
+		display: inline-block;
+	}
+	.glyphicon-star:before{
+		background: url('../images/New-Layout/star_review_bigger.png');
+	}
+	.glyphicon-star-empty:before{
+		background: url('../images/New-Layout/star_empty_review_bigger.png');
+	}
+	.green-color{
+		color: $color3;
+	}
+}

@@ -1,0 +1,15 @@
+/* PAGING */
+.bz-pager{
+    margin-top: 20px;
+    a,span{
+        display: inline-block;
+        padding:8px 13px;
+        background:#002D5A;
+        font-size:16px;
+        color:#fff;
+        background-repeat:no-repeat;
+        &.active{
+            color:$link-color;
+        }
+    }
+}

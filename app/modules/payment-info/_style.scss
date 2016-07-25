@@ -1,0 +1,119 @@
+#mod-payment-info{
+	p{
+		@include font(null,null,#444,400);
+	}
+	i{
+		font-size: 12px;
+	}
+	input[type="checkbox"] + label span {
+	    display:inline-block;
+	    margin: 0;
+	    vertical-align:middle;
+	    background:url(../images/New-Layout/checkbox-bank-uncheck.png) 0 2px no-repeat;
+	    cursor: pointer;
+	    width: 100%;
+	    border: none;
+	    padding: 0 0 20px 30px;
+	    @include font($fontB,null,$color-text-1);
+	    border-radius: 2px;
+	}
+	
+	input[type=checkbox]:checked + label > span:before{
+		content: "";
+	}
+	label{
+		margin-bottom: 0;
+	}
+	.bank{
+		display: none;
+	}
+	.bank.active{
+		display: block;
+	}
+	.bank.active.showbank{
+		input[type="checkbox"] + label span {
+		    background:url(../images/New-Layout/checkbox-bank.png) 0 2px no-repeat;
+		    @include font($fontB,null,$color3);
+		}
+		.information-input{
+			display: block;
+		}
+	}
+	.bank{
+		.information-input{
+			display: none;
+		}
+	}
+	.content{
+		max-width: 480px;
+		padding: 0 15px;
+		margin: 30px auto 80px;
+	}
+	.hide{
+		display: none;
+	}
+	.header{
+		margin-bottom: 40px;
+	}
+	.header-text{
+		@include font($fontB,24px,$color6);
+		margin-bottom: 20px;
+	}
+	.input-bank{
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 8px;
+		font-family: $fontSB;
+		border-radius: 2px;
+		border: 1px solid #bdbdbd;
+	}
+	.select{
+		border: 1px solid #bdbdbd;
+		border-radius: 2px;
+		padding: 10px;
+		width: 100%;
+		background: url("../images/arrow.png") no-repeat 95% center;
+		margin-bottom: 20px;
+		color: $color-text-1;
+		font-weight: 600;
+	}
+	option{
+		color: $color-text-1;
+	}
+	#select-group{
+		color: #999999;
+	}
+	.button{
+		margin-top: 30px;
+		.submit-btn{
+			width: 100%;
+			background: $color3;
+			@include font($fontSB,16px,white);
+			padding: 15px;
+			border: none;
+			border-radius: 2px;
+		}
+	}
+	.title{
+		margin-bottom: 20px;
+	}
+	.option-span{
+		@include font(null,null,#999);
+	}
+	.bank{
+		margin-bottom: 20px;
+	}
+	.bank-information{
+		font-weight: 400;
+		text-decoration: none;
+	}
+	.textarea-bank{
+		border: 1px solid #bdbdbd;
+		border-radius: 2px;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.text-provide{
+		margin-bottom: 40px;
+	}
+}

@@ -1,0 +1,17 @@
+#mod-step-3{
+	p{
+		margin: 0;
+	}
+	.green-1{
+		@include font(null,null,$color1);
+	}
+	.green-2{
+		@include font(null,null,$color6);
+	}
+	.sended{
+		margin-bottom: 10px;
+	}
+	.text-confirm{
+		margin-bottom: 75px;
+	}
+}
