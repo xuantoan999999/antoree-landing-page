@@ -3,9 +3,6 @@
 	font-weight: lighter!important;
 	background: white;
 	width: 100%;
-	.header-tutor{
-		display: block;
-	}
 	.justify-icon-not-home{
 		img{
 			width: 30px;
@@ -23,71 +20,6 @@
 		.phone{
 			@include font($fontSB,null,#d0021b);
 			text-decoration: none;
-		}
-	}
-	.post-new-blog{
-		background: url('../images/New-Layout/cross.png') 10px 14px no-repeat #576366;
-		border-radius: 2px;
-		padding: 10px 10px 10px 35px;
-		margin-right: 30px;
-		text-decoration: none;
-		color: white;
-	}
-	.dropdown-list{
-		@include position(relative);
-		.item-link{
-			background: url('../images/New-Layout/arrow-menu.png') no-repeat right 8px;
-			padding-right: 20px;
-			@include font($fontSB,null,$color-text-1);
-			padding-bottom: 5px;
-			border-bottom: 1px solid white;
-		}
-		.item-link.active{
-			background: url('../images/New-Layout/arrow-menu-hover.png') no-repeat right 8px;
-			border-bottom: 1px solid $color3;
-			color: $color7;
-		}
-	}
-
-	.dropdown-list:hover{
-		height: 35px;
-		.item-link{
-			background: url('../images/New-Layout/arrow-menu-hover.png') no-repeat right 8px;
-			border-bottom: 1px solid $color3;
-			color: $color7;
-		}
-		.dropdown-menu-list{
-			display: block;
-		}
-	}
-	.dropdown-list.active{
-		.item-link{
-			background: url('../images/New-Layout/arrow-menu-hover.png') no-repeat right 8px;
-			border-bottom: 1px solid $color3;
-			color: $color7;
-		}
-	}
-	.dropdown-menu-list{
-		display: none;
-		@include position(absolute,null,null,null,null,null);
-		background: white;
-		list-style-type: none;
-		padding: 0;
-		box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
-		width: 300px;
-		margin-top: 15px;
-		li{
-			display: block;
-		}
-		.menu-list-link{
-			@include font(null,null,$color-text-1);
-			text-decoration: none;
-			padding: 10px 15px;
-			display: block;
-		}
-		.menu-list-link:hover{
-			@include font(null,null,$color-text-1);
-			background-color: #f4f7f8;
 		}
 	}
 	.home-text{
