@@ -3,81 +3,6 @@
 	.content{
 		background-color: #2d343a;
 	}
-	.footer-general{
-		a{
-			@include font(null,null,#dfedec);
-			text-decoration: none;
-		}
-		.col-1{
-			padding-right: 15px;
-			width: 34%;
-		}
-		.link{
-			@include font(null,null,$color7);
-		}
-		.logo{
-			margin-bottom: 15px;
-		}
-		.col-2{
-			width: 48%;
-			p{
-				margin-bottom: 20px;
-			}
-		}
-		.col{
-			padding-right: 35px;
-		}
-		.col-3{
-			width: 18%;
-			
-		}
-		.images{
-			img{
-				margin: 0 5px;
-			}
-		}
-		.teacher-btn{
-			width: 180px;
-			height: 40px;
-			background-color: #e53935;
-			border-radius: 2px;
-			line-height: 20px;
-			@include font($fontSB,null,white);
-			display: inline-block;
-			padding: 10px;
-			margin-top: -5px;
-			margin-bottom: 20px;
-		}
-		.submit{
-			@include font($fontR,null,#576366,400);
-			margin-bottom: 30px;
-			.register{
-				@include font($fontSB,null,#6db2f7);
-			}
-		}
-		.top{
-			padding:70px 0 50px;
-			.head{
-				font-family: $fontB;
-			}
-		}
-		.bottom{
-			border-top: 1px solid #6C7A8B;
-		}
-		.copy{
-			margin: 20px 0;
-			.text{
-				color: #6C7A8B;
-				font-size: 12px;
-				margin:0px;
-			}
-		}
-	}
-	.footer-home{
-		background: $color3;
-		display: none;
-		height: 40px;
-	}
 	.footer-landing-page{
 		display: none;
 		background: white;
@@ -126,87 +51,6 @@
 			margin-top: 20px;
 		}
 	}
-	.footer-test{
-		width:100%;
-		position: fixed;
-		display:block;
-		z-index:1000;
-		bottom:0;
-		padding:20px 20px 0 20px;
-		border-top:1px solid #ccc;
-		background:#fff;
-		.left{
-			.tag{
-				color: #757582;
-				font-size: 14px;
-				.link{
-					color:#757582;
-					&:hover{
-						text-decoration: none;
-						color:#333;
-					}
-				}
-			}
-			.phone-and-email{
-				color: #757582;
-				font-size: 14px;
-				.link{
-					color: #00d2c0;
-					&:hover{
-						text-decoration: none;
-					}
-				}
-			}
-		}
-		.right{
-			.social{
-				float: right;
-			}
-			.img{
-				width: 30px;
-				height: auto;
-				border-radius:100%;
-			}
-		}
-	}
-}
-@media only screen and (max-width: 1000px) {
-	#mod-footer{
-		.footer-general{
-			.col-1,.col-3{
-				width: 24%;
-			}
-			.col-2{
-				width: 52%;
-				.col{
-					padding-right: 10px;
-				}
-			}
-		}
-	}
-}
-@media only screen and (max-width: 840px) {
-	#mod-footer{
-		.footer-general{
-			.col-2{
-				display: none;
-			}
-			.col-1,.col-3{
-				width: 50%;
-			}
-		}
-	}
-}
-
-@media only screen and (max-width:768px){
-	#mod-footer{
-		&.footer-test{
-			position: absolute;
-			.left{
-				margin: 0 auto;
-			}
-		}
-	}
 }
 @media only screen and (max-width: 500px) {
 	#mod-footer{
@@ -218,15 +62,6 @@
 			.col-3{
 				text-align: left;
 				float: left;
-			}
-		}
-		.footer-general{
-			.col-1{
-				width: 100%;
-				margin-bottom: 50px;
-			}
-			.col-3{
-				width: 180px;
 			}
 		}
 	}

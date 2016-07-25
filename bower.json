@@ -4,27 +4,14 @@
   "private": true,
   "dependencies": {
     "bootstrap-sass-official": "latest",
-    "gsap": "latest",
     "jqueryui": "latest",
     "jquery-mousewheel": "latest",
     "jrespond": "latest",
     "magnific-popup": "latest",
-    "malihu-custom-scrollbar-plugin": "latest",
-    "is_js": "isjs#latest",
-    "cropper": "latest",
     "slick-carousel": "latest",
-    "waitForImages": "latest",
-    "scrollmagic": "latest",
     "fancybox3": "latest",
-    "EaselJS": "easeljs#~0.8.2",
-    "TweenJS": "~0.6.2",
-    "PreloadJS": "~0.6.2",
     "jquery": "~2.2.0",
-    "select2": "^4.0.1",
-    "tooltipster": "^3.3.0",
-    "jquery-gridder": "^1.4.2",
-    "angular": "^1.5.7",
-    "angular-messages": "^1.5.7"
+    "jquery-gridder": "^1.4.2"
   },
   "overrides": {
     "parallax": {
