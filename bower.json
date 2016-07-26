@@ -9,7 +9,6 @@
     "jrespond": "latest",
     "magnific-popup": "latest",
     "slick-carousel": "latest",
-    "fancybox3": "latest",
     "jquery": "~2.2.0",
     "jquery-gridder": "^1.4.2"
   },
