@@ -3,6 +3,10 @@
 	font-weight: lighter!important;
 	background: white;
 	width: 100%;
+	.home-menu-image{
+		margin-top: -10px;
+		margin-left: -10px;
+	}
 	.justify-icon-not-home{
 		img{
 			width: 30px;
@@ -10,9 +14,7 @@
 	}
 	.logo{
 		text-decoration: none;
-		.img-responsive{
-			height: 22px;
-		}
+		margin-top: 7px;
 	}
 	.hot-line{
 		display: none;
@@ -23,9 +25,7 @@
 		}
 	}
 	.home-text{
-		line-height: 14px;
 		@include font($fontSB,10px,$color-text-1);
-		margin: 5px 0 0;
 	}
 	.home-text:hover{
 		text-decoration: none;
@@ -105,8 +105,8 @@
 	.header-home{
 		background: #fff;
 		border-bottom: 2px solid #eee;
-		padding:4px 15px;
 		height: 70px;
+		padding: 5px 50px 12.5px;
 		a{
 			text-decoration: none;
 		}
@@ -125,35 +125,13 @@
 			}
 		}
 		.right{
-			padding-top: 20px;
+			padding-top: 30px;
 			float: right;
-			ul{
-				img{
-					cursor: pointer;
-				}
+			.hot-line{
+				@include font($fontB,16px,$color-text-1);
 			}
-			a{
-				@include font($fontSB,null,$color-text-1);
-				&.bz-btn{
-					background:#00D2C0;
-					color: #fff;
-					padding:10px;
-				}
-				&.register{
-					border-right:1px solid $color-text-1;
-					padding-right:10px;
-				}
-				&.log-in{
-					padding-left:10px;
-
-				}
-			}
-			.learn-trial-btn{
-				@include font($fontSB,null,white);
-				background: $color-orange;
-				padding: 10px;
-				margin: 0 10px;
-				border-radius: 3px;
+			.green-color{
+				color: $color3;
 			}
 		}
 		.dropdown-menu{
