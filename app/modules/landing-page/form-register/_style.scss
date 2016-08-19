@@ -1,0 +1,17 @@
+#form-register{
+	@include position(relative);
+	padding:85px 20px 100px;
+	.image-form-register{
+		@include position(absolute,null,null,null,null,1);
+		&.first{
+			@include position(null,-50%,null,null,0);
+		}
+		&.second{
+			@include position(null,null,0,0);
+		}
+	}
+	.h2Title{
+		max-width: 100%;
+		margin-bottom: 22.5px;
+	}
+}

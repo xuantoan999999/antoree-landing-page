@@ -1,0 +1,38 @@
+#why{
+	.h2Title{
+		max-width: 650px;
+	}
+	.header{
+		max-width: 835px;
+		margin: 0 auto;
+		@include position(relative);
+		padding: 0 30px;
+	}
+	.image-bird{
+		@include position(absolute);
+	}
+	.bird-left{
+		@include position(null,-20px,null,null,0px);
+	}
+	.bird-right{
+		@include position(null,null,0px,0px,null);
+	}
+	.list{
+		p{
+			margin-bottom: 25px;
+		}
+		p:last-child{
+			margin: 0;
+		}
+		.left{
+			padding-left: 0;
+			padding-right: 10px;
+		}
+		.right{
+			padding: 0;
+		}
+		.content{
+			@include font(null,13px,$color-text-1);
+		}
+	}
+}

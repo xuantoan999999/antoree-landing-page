@@ -1,67 +1,52 @@
 #mod-footer{
-	color: #dfedec;
-	.content{
-		background-color: #2d343a;
+	.relative-show{
+		@include position(relative,null,null,null,null,100);
 	}
-	.footer-landing-page{
-		display: none;
-		background: white;
-		color: $color-text-1;
-		a{
-			color: $color-text-1;
-			text-decoration: none;
+	.content-top{
+		padding: 55px 50px 60px;
+		color: white;
+		background: $color3;
+		@include position(relative);
+		.background-image{
+			@include position(absolute,0,0,0,null,1);
+			height: 100%;
 		}
-		.teacher-btn{
-			color: white;
-		}
-		.top{
-			padding:40px 0 50px;
-			.head{
-				font-family: $fontB;
+		.detail{
+			@include font($fontB,18px,null);
+			margin-bottom: 42px;
+			p{
+				margin-bottom: 5px;
 			}
 		}
-		.bottom{
-			border: none;
-			.container{
-				border-top: 1px solid #e0e0e0;
+		.address{
+			p{
+				margin-bottom: 10px;
 			}
 		}
-		.copy{
-			margin: 20px 0;
-			.text{
-				color: #6C7A8B;
-				font-size: 12px;
-				margin:0px;
-			}
+		.image-home{
+			margin-bottom: 35px;
 		}
-		.col-1{
-			padding-right: 15px;
-			width: 300px;
-		}
-		.link{
-			@include font(null,null,$color7);
-		}
-		.logo{
-			margin-bottom: 15px;
-		}
-		.col{
-			padding-right: 35px;
-		}
-		.images{
-			margin-top: 20px;
+	}
+	.content-bottom{
+		padding: 20px 50px;
+		@include font(null,12px,#6C7A8B);
+		p{
+			margin: 0;
 		}
 	}
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 855px) {
 	#mod-footer{
-		.footer-landing-page{
-			.col-1{
-				width: 100%;
-				margin-bottom: 50px;
+		.image-home{
+			width: 88px;
+		}
+		.content-top{
+			padding: 55px 20px 60px;
+			.detail,.address{
+				font-size: 10px;
 			}
-			.col-3{
-				text-align: left;
-				float: left;
+			.background-image{
+				display: none;
 			}
 		}
 	}

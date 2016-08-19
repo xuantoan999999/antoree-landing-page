@@ -29,6 +29,11 @@ Description: Biên dịch các file được import thành 1 file CSS
 @import "../modules/commom/footer/style";
 
 @import "../modules/landing-page/style";
+@import "../modules/landing-page/banner/style";
+@import "../modules/landing-page/learn-eng/style";
+@import "../modules/landing-page/why/style";
+@import "../modules/landing-page/talk-about/style";
+@import "../modules/landing-page/form-register/style";
 
 // Layout
 @import "layout/heading";

@@ -1,17 +1,23 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Antoree</title>
-        {% include: 'commom/head-bundle.tpl' %}
-    </head>
-    <body class="canvas landing-page">
-        {% include: 'commom/check-ie.tpl' %}
+<head>
+    <title>Antoree</title>
+    {% include: 'commom/head-bundle.tpl' %}
+</head>
+<body class="canvas landing-page">
+    {% include: 'commom/check-ie.tpl' %}
 
-        {% include: 'modules/commom/header/view.tpl' %}
-        {% include: 'modules/landing-page/view.tpl' %}
-        {% include: 'modules/commom/footer/view.tpl' %}
+    {% include: 'modules/commom/header/view.tpl' %}
+    <div id="mod-landing-page">
+        {% include: 'modules/landing-page/banner/view.tpl' %}
+        {% include: 'modules/landing-page/learn-eng/view.tpl' %}
+        {% include: 'modules/landing-page/why/view.tpl' %}
+        {% include: 'modules/landing-page/talk-about/view.tpl' %}
+        {% include: 'modules/landing-page/form-register/view.tpl' %}
+    </div>
+    {% include: 'modules/commom/footer/view.tpl' %}
 
-        {% include: 'commom/script-bundle.tpl' %}
-        {% include: 'commom/social-and-tracking.tpl' %}
-    </body>
+    {% include: 'commom/script-bundle.tpl' %}
+    {% include: 'commom/social-and-tracking.tpl' %}
+</body>
 </html>

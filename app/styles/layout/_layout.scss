@@ -32,6 +32,22 @@ body{
 .pos-relative{
 	position: relative;
 }
+.button-submit{
+	@include font($fontB,null,white);
+	background: $color1;
+	display: inline-block;
+	padding: 13px 20px;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-decoration: none;
+}
+.button-submit:hover{
+	@include font($fontB,null,white);
+	text-decoration: none;
+}
+.green-color{
+	color: $color3;
+}
 .landing-page{
 	.bzPopup{
 		overflow: visible;
@@ -47,38 +63,6 @@ body{
 	.mfp-close-btn-in .mfp-close{
 		color: white;
 		font-size: 40px;
-	}
-	#mod-header{
-		@include position(absolute);
-		.header-blog,.header-test,.header-post{
-			display: none;
-		}
-		.header-home {
-			height: auto;
-			position: relative;
-			.link{
-				display: none;
-			}
-			.right{
-				.hot-line{
-					display: inline-block;
-				}
-				a.register,a.log-in,.vn-flag{
-					display: none;
-				}
-				.learn-trial-btn{
-					display: inline-block;
-				}
-			}
-		}
-		.bottom{
-			.right{
-				.btn-in-helpPage{
-					display: none;
-				}
-
-			}
-		}
 	}
 	#mod-footer{
 		.footer-test{

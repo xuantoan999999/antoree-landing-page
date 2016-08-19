@@ -2,81 +2,6 @@
 	'use strict';
 	var mod = $('#mod-landing-page');
 
-	function clients(){
-		mod.find("#clients .list").slick({
-			slidesToShow: 5,
-			slidesToScroll: 1,
-			arrow:false,
-			dots: false
-		});
-	}
-	function partner(){
-		mod.find("#partner .list").slick({
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			arrow:false,
-			dots: false
-		});
-	}
-
-	function slideClient() {
-		mod.find('#clients .table').slick({
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 2000,
-			infinite: true,
-			variableWidth: true,
-			responsive: [
-			{
-				breakpoint: 991,
-				settings: {
-					slidesToShow: 3,
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 450,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-			]
-		});
-	}
-	
-	function TheBestAntoree(){
-		mod.find("#why .list").slick({
-			slidesToShow:3,
-			slidesToScroll:1,
-			responsive: [
-			{
-				breakpoint: 992,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1,
-					infinite: true,
-					dots: false
-				}
-			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-			]
-		});
-	}
-
 	function activePopup(){
 		mod.find('#imagespopup').magnificPopup({type:'image'});
 	}
@@ -151,14 +76,9 @@
 			$(this).height(maxHeight);
 		})
 	}
-	
 	$(document).ready(function() {
-		// partner();
-		// clients();
 		activePopup();
 		addSuKienVaoButtons();
-		TheBestAntoree();
-		slideClient();
 		popupBanner();
 		popupAds();
 		bestTeacher();
