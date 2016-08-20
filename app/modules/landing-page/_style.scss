@@ -5,7 +5,6 @@
 	h1{
 		@include font(null,28px,$color-text-1);
 		margin: 0 0 10px;
-		line-height: 42px;
 	}
 	.padding-common{
 		padding: 0 50px;
@@ -15,7 +14,6 @@
 		text-transform: none;
 		max-width: 660px;
 		margin: 0 auto 65px;
-		line-height: 42px;
 	}
 	.h3Title{
 		@include font($fontSB,18px);
@@ -34,7 +32,6 @@
 			.time{
 				display: inline-block;
 				@include font(null,48px,$color3);
-				line-height: 1;
 			}
 			.between,.bottom{
 				color: $color-text-1;
@@ -44,6 +41,49 @@
 			}
 			.bottom{
 				font-size: 18px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 960px) {
+	#mod-landing-page{
+		.time-count{
+			.clock{
+				.between{
+					margin: -5px 15px 0;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#mod-landing-page{
+		h1{
+			font-size: 15px;
+			line-height: 22px;
+		}
+		.h2Title{
+			font-size: 15px;
+		}
+		.time-count{
+			.clock{
+				.time{
+					font-size: 34px;
+				}
+				.between{
+					margin: -5px 25px 0;
+				}
+			}
+		}
+	}
+}
+@media only screen and (max-width: 384px) {
+	#mod-landing-page{
+		.time-count{
+			.clock{
+				.between{
+					margin: -5px 10px 0;
+				}
 			}
 		}
 	}

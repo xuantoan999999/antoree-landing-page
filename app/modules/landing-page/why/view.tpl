@@ -6,66 +6,58 @@
 			Trẻ từ 6-15 tuổi sẽ xuất sắc tiếng Anh như thế nào <span class="green-color">khi học trên Antoree ?</span>
 		</h2>
 	</div>
-	<div class="row">
-		<div class="list">
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-1.png" alt="" class="img-responsive">
+	<div class="list-why row">
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-1.png" alt="" class="img-why">
+				<div class="header-item">
+					<p class="green-color">
+						Khả năng giao tiếp tăng vọt
+					</p>
 				</div>
-				<div class="right col-xs-9 col-sm-10">
-					<div class="header-item">
-						<p class="green-color">
-							Khả năng giao tiếp tăng vọt
-						</p>
-					</div>
-					<div class="content">
-						<p>
-							Con nghe hiểu tới 90% các chủ để quen thuộc ; phát âm chuẩn như người bản ngữ , tự tin giao tiếp bằng tiếng Anh .
-						</p>
-					</div>
+				<div class="content">
+					<p>
+						Con nghe hiểu tới 90% các chủ để quen thuộc ; phát âm chuẩn như người bản ngữ , tự tin giao tiếp bằng tiếng Anh .
+					</p>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-2.png" alt="" class="img-responsive">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-2.png" alt="" class="img-why">
+				<div class="header-item">
+					<p class="green-color">
+						Chủ động hứng khởi hơn bao giờ hết
+					</p>
 				</div>
-				<div class="right col-xs-9 col-sm-10">
-					<div class="header-item">
-						<p class="green-color">
-							Chủ động hứng khởi hơn bao giờ hết
-						</p>
-					</div>
-					<div class="content">
-						<p>
-							Con hứng thú , chủ động với tiếng anh hơn do được tương tác 100% thời gian với giáo viên
-						</p>
+				<div class="content">
+					<p>
+						Con hứng thú , chủ động với tiếng anh hơn do được tương tác 100% thời gian với giáo viên
+					</p>
 
-					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-3.png" alt="" class="img-responsive">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-3.png" alt="" class="img-why">
+				<div class="header-item">
+					<p class="green-color">
+						Sử dụng tiếng anh chuẩn quốc tế
+					</p>
 				</div>
-				<div class="right col-xs-9 col-sm-10">
-					<div class="header-item">
-						<p class="green-color">
-							Sử dụng tiếng anh chuẩn quốc tế
-						</p>
-					</div>
-					<div class="content">
-						<p>
-							Con được trau dồi 4 kĩ năng 1 cách bài bản để phục vụ việc học trên lớp cũng như thi các chứng chỉ tương lai ( IELTS,
-							TOEFL, TOEIC, Cambridge )
-						</p>
-					</div>
+				<div class="content">
+					<p>
+						Con được trau dồi 4 kĩ năng 1 cách bài bản để phục vụ việc học trên lớp cũng như thi các chứng chỉ tương lai ( IELTS,
+						TOEFL, TOEIC, Cambridge )
+					</p>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-4.png" alt="" class="img-responsive">
-				</div>
-				<div class="right col-xs-9 col-sm-10">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-4.png" alt="" class="img-why">
+				<div class="right">
 					<div class="header-item">
 						<p class="green-color">
 							Chương Trình học bài bản Thiết kế Riêng
@@ -81,11 +73,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-5.png" alt="" class="img-responsive">
-				</div>
-				<div class="right col-xs-9 col-sm-10">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-5.png" alt="" class="img-why">
+				<div class="right">
 					<div class="header-item">
 						<p class="green-color">
 							Học 1 Thầy Kèm 1 Trò
@@ -99,11 +91,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<div class="col-xs-3 col-sm-2 left">
-					<img src="images/best-6.png" alt="" class="img-responsive">
-				</div>
-				<div class="right col-xs-9 col-sm-10">
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4 item-why">
+			<div class="content-why">
+				<img src="images/best-6.png" alt="" class="img-why">
+				<div class="right">
 					<div class="header-item">
 						<p class="green-color">
 							Đánh giá trình độ định kì
@@ -120,7 +112,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="clearfix"></div>
 		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>

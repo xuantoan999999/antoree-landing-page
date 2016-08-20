@@ -1,4 +1,5 @@
 #why{
+	padding: 0 50px;
 	.h2Title{
 		max-width: 650px;
 	}
@@ -17,7 +18,8 @@
 	.bird-right{
 		@include position(null,null,0px,0px,null);
 	}
-	.list{
+	.list-why{
+		font-size: 0;
 		p{
 			margin-bottom: 25px;
 		}
@@ -34,5 +36,38 @@
 		.content{
 			@include font(null,13px,$color-text-1);
 		}
+		.item-why{
+			float: none;
+			display: inline-block;
+			font-size: 13px;
+			vertical-align: top;
+			margin-bottom: 70px;;
+			.content-why{
+				padding-left: 90px;
+				@include position(relative);
+			}
+			.img-why{
+				max-width: 80px;
+				@include position(absolute,0,null,null,0);
+			}
+			.green-color{
+				font-size: 18px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 620px) {
+	#why{
+		.bird-left{
+			width: 35px;
+		}
+		.bird-right{
+			width: 28px;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#why{
+		padding: 0 20px;
 	}
 }

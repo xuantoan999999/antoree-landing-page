@@ -67,3 +67,63 @@
 		}
 	}
 }
+@media only screen and (max-width: 768px) {
+	#talk-about{
+		.header{
+			font-size: 15px;
+			.green-color{
+				display: block;
+				font-size: 31px;
+			}
+		}
+		.image-talk-about{
+			&.first{
+				width: 151px;
+				@include position(null,10px,null,null,-5px);
+			}
+			&.second{
+				width: 99px;
+				@include position(null,50%,-5px);
+			}
+		}
+	}
+}
+@media only screen and (max-width: 550px) {
+	#talk-about{
+		.header{
+			margin-bottom: 0;
+		}
+		.image-parent{
+			width: 58px;
+		}
+		.comment-list{
+			.comment-text{
+				font-size: 8px;
+				line-height: 13px;
+				margin-bottom: -10px;
+			}
+			.comment-parent-detail{
+				padding-top: 10px;
+				font-size: 10px;
+			}
+			.float-left{
+				.comment-text{
+					margin-left: 45px;
+				}
+			}
+			.float-right{
+				.comment-text{
+					margin-right: 45px;
+				}
+			}
+		}
+		.image-talk-about{
+			&.first{
+				@include position(null,10px,null,null,-5px);
+			}
+			&.second{
+				margin-top: -25px;
+			}
+		}
+	}
+}

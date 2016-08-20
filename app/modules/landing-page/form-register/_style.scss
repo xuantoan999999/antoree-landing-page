@@ -5,13 +5,28 @@
 		@include position(absolute,null,null,null,null,1);
 		&.first{
 			@include position(null,-50%,null,null,0);
+			z-index: 20;
 		}
 		&.second{
-			@include position(null,null,0,0);
+			@include position(null,0,0);
 		}
 	}
 	.h2Title{
 		max-width: 100%;
 		margin-bottom: 22.5px;
+	}
+}
+@media only screen and (max-width: 750px) {
+	#form-register{
+		padding:200px 20px 25px;
+		.image-form-register{
+			&.first{
+				width: 150px;
+				@include position(null,0);
+			}
+			&.second{
+				width: 194px;
+			}
+		}
 	}
 }
