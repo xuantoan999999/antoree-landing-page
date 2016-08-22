@@ -29,6 +29,9 @@ html{
 body{
 	font-weight: lighter!important;
 }
+a{
+	text-decoration: none;
+}
 .pos-relative{
 	position: relative;
 }
@@ -40,13 +43,23 @@ body{
 	border-radius: 5px;
 	margin: 0 auto;
 	text-decoration: none;
+	border: none;
 }
 .button-submit:hover{
 	@include font($fontB,null,white);
 	text-decoration: none;
 }
+.content-register-kid{
+	.button-submit{
+		max-width: 230px;
+		width: 100%;
+	}
+}
 .green-color{
 	color: $color3;
+}
+.blue-color{
+	@include font($fontB,null,#4a9be2);
 }
 .landing-page{
 	.bzPopup{
@@ -64,42 +77,70 @@ body{
 		color: white;
 		font-size: 40px;
 	}
-	#mod-footer{
-		.footer-test{
-			display: none;
-		}
-		.content{
-			background: white;
-		}
-		.footer-general{
-			display: none;
-		}
-		.footer-home{
-			display: block;
-		}
-		.footer-landing-page{
-			display: block;
-		}
-	}
 }
 .module{
 	padding-top:100px;
 }
-.bz-btn{
-	text-transform: uppercase;
-	@include font($fontR,14px,#fff);
-	height: 40px;
-	padding:0px 15px;
-	border:none;
-	border-radius: 3px;
-	line-height: 40px;
-	text-decoration:none;
-	&:hover{
-		color: #fff;
+.content-register-kid{
+	max-width: 690px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.form-content-register{
+	margin-bottom: 20px;
+	.input-no-border{
+		border: none;
+		width: 100%;
+		vertical-align: bottom;
+		background: transparent;
+		@include font($fontB,16px,#595959);
+	}
+	.form-group{
+		border: 1px solid #ebebeb;
+		border-radius: 5px;
+		padding: 20px 15px 0;
+		height: 56px;
+		margin-bottom: 25px;
+		@include position(relative);
+	}
+	.form-content-text{
+		@include position(absolute,5px,null,null,15px,-1);
+		transition: .2s ease all;
+		@include font($fontB,16px,#595959);
+		transform: translate(0,50%);
+	}
+	.input-no-border:focus~.form-content-text ,.input-no-border:valid~.form-content-text{
+		transform: translate(0,0);
+		@include font($fontR,10px,null);
 	}
 }
-a{
-	text-decoration: none;
+.content-header{
+	display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	p{
+		margin-bottom: 10px;
+	}
+	.image-header{
+		@include position(absolute,0);
+		margin-top: 0;
+		&.left{
+			left: 0;
+			margin-left: -60px;
+		}
+		&.right{
+			right: 0;
+			margin-right: -60px;
+		}
+	}
+}
+.register{
+	#mod-footer{
+		border-top: 1px solid #ebebeb;
+		.content-top{
+			display: none;
+		}
+	}
 }
 @media only screen and (max-width:1750px){
 	.container{
@@ -116,49 +157,30 @@ a{
 		max-width: 980px;
 	}
 }
-@media only screen and (max-width:1023px){
-	.landing-page{
-		#mod-header{
-			.menu-mobile{
-				display: none;
-			}
-			.header-home{
-				display: block;
-			}
+@media only screen and (max-width: 600px) {
+	.content-header{
+		.image-header{
+			display: none;
 		}
 	}
 }
-
-@media only screen and (max-width: 603px) {
-	.landing-page{
-		#mod-header{
-			.header-home{
-				.left{
-					width: 100%;
-					.logo{
-						width: 100%;
-					}
-				}
-				.right{
-					width: 100%;
-				}
-			}
+@media only screen and (max-width: 600px) {
+	.form-content-register{
+		.input-no-border{
+			text-align: center;
+			font-size: 14px;
 		}
-	}
-}
-@media only screen and (max-width:430px){
-	.landing-page{
-		#mod-header{
-			.header-home{
-				.right{
-					.hot-line{
-						margin-bottom: 5px;
-					}
-					.learn-trial-btn{
-						margin: 0;
-					}
-				}
-			}
+		.form-content-text{
+			top: 15px;
+			left: 50%;
+			transform: translate(-50%,0);
+			width: 100%;
+			font-size: 14px;
+			text-align: center;
+		}
+		.input-no-border:focus~.form-content-text ,.input-no-border:valid~.form-content-text{
+			transform: translate(-50%,50%);
+			top: 0;
 		}
 	}
 }

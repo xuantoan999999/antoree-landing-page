@@ -23,8 +23,6 @@
 <link rel="stylesheet" href="../../bower_components/jqueryui/themes/base/jquery-ui.css" />
 <link rel="stylesheet" href="../../bower_components/jqueryui/themes/base/datepicker.css" />
 <link rel="stylesheet" href="../../bower_components/magnific-popup/dist/magnific-popup.css" />
-<link rel="stylesheet" href="../../bower_components/slick-carousel/slick/slick.css" />
-<link rel="stylesheet" href="../../bower_components/slick-carousel/slick/slick-theme.css" />
 <!-- endbower -->
 <!-- endbuild -->
 <!-- build:css(.tmp) styles/main.css -->

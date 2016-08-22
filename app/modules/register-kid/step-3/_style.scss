@@ -1,0 +1,66 @@
+#mod-step-3{
+	.header-content{
+		h1{
+			margin: 0;
+			@include font($fontB,22px,null);
+		}
+	}
+	.header-section{
+		margin-bottom: 50px;
+		.background-image{
+			height: 197px;
+			background: url('../images/step-3-congrate.png') top center no-repeat;
+			background-size: cover;
+		}
+	}
+	.contact-list{
+		max-width: 500px;
+		margin: 0 auto 42.5px;
+		padding: 0 20px;
+		.contact-item{
+			display: block;
+			padding: 17.5px 0 17.5px 52px;
+			@include position(relative);
+			span{
+				display: inline-block;
+				@include font($fontB,16px,$color-text-1);
+				text-transform: uppercase;
+				text-decoration: underline;
+			}
+			.image-contact{
+				@include position(absolute,50%,null,null,0);
+				margin-top: -21px;
+			}
+		}
+		.contact-item:hover{
+			text-decoration: none;
+		}
+	}
+}
+@media only screen and (max-width: 600px) {
+	#mod-step-3{
+		.header-content{
+			h1{
+				font-size: 15px;
+			}
+		}
+		.header-section{
+			margin-bottom: 20px;
+			.background-image{
+				height: 52px;
+			}
+		}
+		.contact-list{
+			.contact-item{
+				padding-left: 31px;
+				span{
+					font-size: 12px;
+				}
+				.image-contact{
+					width: 25px;
+					margin-top: -13px;
+				}
+			}
+		}
+	}
+}

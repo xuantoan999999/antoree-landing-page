@@ -41,7 +41,7 @@
 
 		</div>
 		<div class="content-right col-xs-12 col-sm-6 text-right">
-			<img src="images/link-yotube.jpg" alt="" class="img-responsive">
+			<iframe width="100%" height="340" src="https://www.youtube.com/embed/fyOyBAZKCsc?list=PLiI_5X8_LDdapbpa2c6f5l9w8CEYOz2Y_" frameborder="0" allowfullscreen style="max-width:690px;"></iframe>
 		</div>
 		<div class="clearfix"></div>
 	</div>

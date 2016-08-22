@@ -1,0 +1,47 @@
+#mod-step-1{
+	margin-top: 35px;
+	margin-bottom: 40px;
+	p{
+		margin: 0;
+	}
+	.header-register-1{
+		margin-bottom: 22.5px;
+		h1{
+			@include font(null,28px,$color-text-1);
+			line-height: 42px;
+			margin: 0 0 10px;
+		}
+		.green-color{
+			font-size: 18px;
+		}
+	}
+	.header-section{
+		margin-bottom: 20px;
+		.content-header{
+			max-width: 460px;
+			.image-header{
+				margin-top: -15px;
+			}
+		}
+	}
+}
+@media only screen and (max-width: 600px) {
+	#mod-step-1{
+		.header-register-1{
+			margin-bottom: 22.5px;
+			h1{
+				font-size: 15px;
+				line-height: 22px;
+			}
+			.green-color{
+				font-size: 12px;
+			}
+		}
+		.blue-color{
+			font-size: 12px;
+		}
+		.form-content-register{
+			text-align: center;
+		}
+	}
+}

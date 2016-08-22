@@ -1,0 +1,48 @@
+#mod-step-2{
+	margin-top: 40px;
+	margin-bottom: 45px;
+	.header-section{
+		margin-bottom: 25px;
+		h1{
+			margin: 0;
+			font-size: 14px;
+			text-transform: uppercase;
+		}
+	}
+	.content-header{
+		.image-header{
+			margin-top: -25px;
+			&.left{
+				margin-left: -90px;
+			}
+			&.right{
+				margin-right: -90px;
+			}
+		}
+	}
+	.text-area{
+		width: 100%;
+		border: 1px solid $color3;
+		border-radius: 5px;
+		padding: 17px 26px;
+		margin: 5px 0 30px;
+		margin-bottom: 30px;
+	}
+	.input-content{
+		.question{
+			@include font($fontB,16px,#595959);
+			margin-bottom: 10px;
+		}
+		.answer{
+			margin-bottom: 25px;
+		}
+	}
+	.input-submit-area{
+		padding-top: 35px;
+		border-top: 1px solid #ebebeb;
+	}
+}
+@media only screen and (max-width: 600px) {
+	#mod-step-2{
+	}
+}
