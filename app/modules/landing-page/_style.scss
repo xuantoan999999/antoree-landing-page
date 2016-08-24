@@ -5,6 +5,7 @@
 	h1{
 		@include font(null,28px,$color-text-1);
 		margin: 0 0 10px;
+		line-height: 42px;
 	}
 	.padding-common{
 		padding: 0 50px;
@@ -14,6 +15,7 @@
 		text-transform: none;
 		max-width: 660px;
 		margin: 0 auto 65px;
+		line-height: 42px;
 	}
 	.h3Title{
 		@include font($fontSB,18px);
@@ -64,6 +66,7 @@
 		}
 		.h2Title{
 			font-size: 15px;
+			line-height: 22px;
 		}
 		.time-count{
 			.clock{

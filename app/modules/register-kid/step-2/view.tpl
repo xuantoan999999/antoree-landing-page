@@ -17,8 +17,13 @@
 			<p class="form-content-text">Họ tên đầy đủ của bé *</p>
 		</div>
 		<div class="form-group">
-			<input type="number" class="input-no-border" value="" required>
-			<p class="form-content-text">Bé bao nhiêu tuổi ? *</p>
+			<select name="" id="" class="input-no-border" required>
+				<option value="no" disabled selected style="display: none;"></option>
+				<option value="6 - 10 tuổi" data-role="yes">Từ 6 - 10 tuổi</option>
+				<option value="10 - 15 tuổi" data-role="yes">Từ 10 - 15 tuổi</option>
+				<option value="Từ 13 - 18 tuổi " data-role="yes">Từ 15 - 18 tuổi </option>
+			</select>
+			<p class="form-content-text effect">Bé bao nhiêu tuổi ? *</p>
 		</div>
 		<div class="form-group">
 			<input type="email" class="input-no-border" value="" required>

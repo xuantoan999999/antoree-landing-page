@@ -14,24 +14,24 @@
 					<p class="green-color">
 						Thời gian đăng kí còn lại
 					</p>
-					<div class="clock">
+					<div class="clock" time="10000" id="time-clock">
 						<span class="time float-left">
-							<p class="top">03</p>
+							<p class="top day">03</p>
 							<p class="bottom">Ngày</p>
 						</span>
 						<span class="time between float-left">:</span>
 						<span class="time float-left">
-							<p class="top">12</p>
+							<p class="top hour">12</p>
 							<p class="bottom">Tiếng</p>
 						</span>
 						<span class="time between float-left">:</span>
 						<span class="time float-left">
-							<p class="top">56</p>
+							<p class="top minute">56</p>
 							<p class="bottom">Phút</p>
 						</span>
 						<span class="time between float-left">:</span>
 						<span class="time float-left">
-							<p class="top">40</p>
+							<p class="top second">40</p>
 							<p class="bottom">Giây</p>
 						</span>
 						<div class="clearfix"></div>

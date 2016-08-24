@@ -25,7 +25,8 @@
 <script src="scripts/helpers.js"></script>
 <script src="scripts/plugins.js"></script>
 <!-- Modules -->
-<script src="modules/commom/header/script.js"></script>
 <!-- Home -->
 <script src="modules/landing-page/script.js"></script>
+<script src="modules/register-kid/step-1/scripts.js"></script>
+<script src="modules/register-kid/step-2/scripts.js"></script>
 <!-- endbuild -->

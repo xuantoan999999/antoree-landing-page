@@ -22,27 +22,26 @@
 	}
 	.text-area{
 		width: 100%;
-		border: 1px solid $color3;
 		border-radius: 5px;
 		padding: 17px 26px;
-		margin: 5px 0 30px;
-		margin-bottom: 30px;
+		margin: 5px 0 0;
+		border: 1px solid #ebebeb;
 	}
 	.input-content{
+		margin-bottom: 10px;
+		select{
+			padding: 0;
+		}
 		.question{
 			@include font($fontB,16px,#595959);
 			margin-bottom: 10px;
 		}
 		.answer{
-			margin-bottom: 25px;
+			margin-bottom: 10px;
 		}
 	}
 	.input-submit-area{
 		padding-top: 35px;
 		border-top: 1px solid #ebebeb;
-	}
-}
-@media only screen and (max-width: 600px) {
-	#mod-step-2{
 	}
 }

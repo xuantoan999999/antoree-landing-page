@@ -43,45 +43,42 @@
 			mod.find('#popup-ad button#popup').trigger('click');
 		},10000);
 	}
-
-	function bestTeacher() {
-		mod.find('.teacher-grid-list').gridderExpander({
-			scroll: false,
-			animationSpeed: 400,
-			animationEasing: "easeInOutExpo",
-			nextText: "",
-			prevText: "",
-			closeText: "",
-			onStart: function(){
-	            //Gridder Inititialized
-	        },
-	        onContent: function(){
-	            //Gridder Content Loaded
-	        },
-	        onClosed: function(){
-	            //Gridder Closed
-	        }
-	    });
-
+	function formatDate(time) {
+		var date = {};
+		date.day = parseInt(time / 86400);
+		var dayTime = time - date.day * 86400;
+		date.hour = parseInt(dayTime / 3600);
+		var hourTime = dayTime - date.hour * 3600;
+		date.minute = parseInt(hourTime / 60);
+		var minuteTime = hourTime - date.minute * 60;
+		date.second = minuteTime;
+		return date;
 	}
-	function maxHeigthLearn() {
-		var maxHeight = 0;
-		mod.find('.head-learn .h3Title').each(function(index) {
-			if($(this).height() > maxHeight){
-				maxHeight = $(this).height();
+	function formatTime(timeString) {
+		if (timeString < 10) {
+			return "0" + timeString;
+		}
+		return timeString;
+	}
+	function time() {
+		var time = parseInt($('#time-clock').attr('time'));
+		setInterval(function() {
+			if (time > 0) {
+				var date = formatDate(time);
+				mod.find('.day').html(formatTime(date.day));
+				mod.find('.hour').html(formatTime(date.hour));
+				mod.find('.minute').html(formatTime(date.minute));
+				mod.find('.second').html(formatTime(date.second));
 			}
-			// console.log($(this).height());
-		})
-		mod.find('.head-learn .h3Title').each(function(index) {
-			$(this).height(maxHeight);
-		})
+			time --;
+		},1000);
 	}
+
 	$(document).ready(function() {
 		activePopup();
 		addSuKienVaoButtons();
 		popupBanner();
 		popupAds();
-		bestTeacher();
-		maxHeigthLearn();
+		time();
 	});
 })();

@@ -2,6 +2,7 @@
 	<div class="header-section text-center">
 		<div class="header-register-1 text-center">
 			<h1>Chương trình tiếng Anh trẻ em chất lượng cao học 1 kèm 1 trực tuyến với giáo viên bản ngữ</h1>
+			<h1></h1>
 			<p class="green-color">
 				( Chương trình dành cho bé từ 6-15 tuổi )
 			</p>
@@ -26,7 +27,7 @@
 		</div>
 		<div class="form-group">
 			<input type="email" class="input-no-border" value="" required>
-			<p class="form-content-text">Địa chỉ email *</p>
+			<p class="form-content-text effect">Địa chỉ email *</p>
 		</div>
 		<div class="input-submit-area text-center">
 			<input type="submit" class="button-submit" value="ĐĂNG KÍ">
