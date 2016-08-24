@@ -8,7 +8,7 @@
 			z-index: 20;
 		}
 		&.second{
-			@include position(null,0,0);
+			@include position(null,45px,0);
 		}
 	}
 	.h2Title{
