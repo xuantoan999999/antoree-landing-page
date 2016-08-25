@@ -1,0 +1,57 @@
+#community{
+	background: url('../images/background-comunity.png') right center no-repeat;
+	background-size: cover;
+	padding: 57px 0 95px;
+	h2{
+		margin-top: 0;
+	}
+	.community-content-list{
+		max-width: 1150px;
+		margin: 0 auto;
+		font-size: 0;
+		img.float-right{
+			margin-left: 15px;
+		}
+		.community-content-item{
+			display: inline-block;
+			float: none;
+			vertical-align: top;
+			padding: 20px;
+		}
+		.community-content{
+			padding: 30px 40px 10px;
+			background-color: white;
+			border: 1px solid #ebebeb;
+			border-radius: 5px;
+			box-shadow: 0 0 13px rgba(0, 0, 0, 0.13);
+		}
+		.content-teacher-text{
+			padding-top: 20px;
+			@include font($fontB,12px,null);
+		}
+		.content-item{
+			@include font(null,13px,$color-text-1);
+		}
+		.content-teacher-detail{
+			margin-top: -10px;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#community{
+		.community-content-list{
+			img.float-right{
+				float: none;
+				margin: 0;
+			}
+			.content-teacher-text{
+				text-align: center;
+				padding-top: 7.5px;
+			}
+			.content-teacher-detail{
+				margin-top: 0;
+				text-align: center;
+			}
+		}
+	}
+}

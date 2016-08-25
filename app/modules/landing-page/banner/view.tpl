@@ -1,48 +1,22 @@
 <div id="banner">
-	<div class="row">
-		<div class="col-xs-12 col-sm-6">
-			<img src="images/abc.png" alt="">
-			<div class="content text-center">
-				<h1>
-					Chương trình tiếng Anh trẻ em chất lượng cao
-					học 1 kèm 1 trực tuyến với giáo viên bản ngữ
-				</h1>
-				<a href="" class="button-submit">
-					ĐĂNG KÝ NHẬN 01 BUỔI HỌC THỬ MIỄN PHÍ
-				</a>
-				<div class="time-count">
-					<p class="green-color">
-						Thời gian đăng kí còn lại
-					</p>
-					<div class="clock" time="10000" id="time-clock">
-						<span class="time float-left">
-							<p class="top day">03</p>
-							<p class="bottom">Ngày</p>
-						</span>
-						<span class="time between float-left">:</span>
-						<span class="time float-left">
-							<p class="top hour">12</p>
-							<p class="bottom">Tiếng</p>
-						</span>
-						<span class="time between float-left">:</span>
-						<span class="time float-left">
-							<p class="top minute">56</p>
-							<p class="bottom">Phút</p>
-						</span>
-						<span class="time between float-left">:</span>
-						<span class="time float-left">
-							<p class="top second">40</p>
-							<p class="bottom">Giây</p>
-						</span>
-						<div class="clearfix"></div>
-					</div>
-				</div>
-			</div>
-
+	<div class="background"></div>
+	<img src="images/home-banner-baccground.png" alt="" class="image-background">
+	<div class="banner-content text-center">
+		<div class="banner-text">
+			<h1>Gia Sư Tiếng Anh Trực Tuyến Tại Nhà</h1>
+			<p class="text-description">Tăng thu nhập, kết nối cộng đồng.</p>
 		</div>
-		<div class="content-right col-xs-12 col-sm-6 text-right">
-			<iframe width="100%" height="340" src="https://www.youtube.com/embed/fyOyBAZKCsc?list=PLiI_5X8_LDdapbpa2c6f5l9w8CEYOz2Y_" frameborder="0" allowfullscreen style="max-width:690px;"></iframe>
+		<div class="button">
+			<a href="" class="button-submit">
+				ĐĂNG KÍ ĐỂ TRỞ THÀNH GIA SƯ NGAY
+			</a>
 		</div>
-		<div class="clearfix"></div>
+		<a href="" class="popup-button" id="popup-banner">
+			<img src="images/play-button.png" alt="">
+		</a>
+		<p class="popup-text">Cùng Khám phá video giảng dạy tại Antoree</p>
 	</div>
+	<a class="down-arrow text-center">
+		<img src="images/unknow-arrow.png" alt="">
+	</a>
 </div>

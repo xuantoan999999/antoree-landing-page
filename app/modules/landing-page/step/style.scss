@@ -1,0 +1,38 @@
+#step{
+	padding-bottom: 65px;
+	.step-list{
+		max-width: 1340px;
+		margin: 0 auto;
+		padding: 0 20px;
+		.step-item{
+			width: 20%;
+			margin-bottom: 35px;
+		}
+		.green-color{
+			margin-bottom: 18px;
+			@include font($fontB,18px,null);
+		}
+		.image{
+			background-color: white;
+			border: 1px dashed #3cb878;
+			box-shadow: 0 4px 9px rgba(0, 0, 0, 0.1);
+			display: inline-block;
+			border-radius: 100%;
+			padding: 22px 19px;
+			margin-bottom: 22px;
+		}
+		.content-step{
+			@include font(null,20px,$color-text-1);
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#step{
+		padding-bottom: 0;
+		.step-list{
+			.step-item{
+				width: 100%;
+			}
+		}
+	}
+}

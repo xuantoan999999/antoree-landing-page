@@ -1,16 +1,8 @@
 #mod-footer{
-	.relative-show{
-		@include position(relative,null,null,null,null,100);
-	}
 	.content-top{
-		padding: 55px 50px 60px;
+		padding: 45px 50px 50px;
 		color: white;
-		background: $color3;
-		@include position(relative);
-		.background-image{
-			@include position(absolute,0,0,0,null,1);
-			height: 100%;
-		}
+		border-bottom: 1px solid #ebebeb;
 		.detail{
 			@include font($fontB,18px,null);
 			margin-bottom: 42px;

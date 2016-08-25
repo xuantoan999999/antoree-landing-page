@@ -1,39 +1,50 @@
 <div id="form-register" class="text-center">
-	<img src="images/form-register-1.png" alt="" class="image-form-register first">
-	<img src="images/form-register-2.png" alt="" class="image-form-register second">
-	<h2 class="h2Title relative-show">
-		Chọn giải pháp tiếng Anh cho con. <span class="green-color">Chọn ngay Antoree</span>
-	</h2>
-	<div class="submit relative-show">
-		<a href="" class="button-submit">
-			ĐĂNG KÝ NHẬN 01 BUỔI HỌC THỬ MIỄN PHÍ
-		</a>
-	</div>
-	<div class="time-count relative-show">
-		<p class="green-color">
-			Thời gian đăng kí còn lại
-		</p>
-		<div class="clock" time="10000" id="time-clock">
-			<span class="time float-left">
-				<p class="top day">03</p>
-				<p class="bottom">Ngày</p>
-			</span>
-			<span class="time between float-left">:</span>
-			<span class="time float-left">
-				<p class="top hour">12</p>
-				<p class="bottom">Tiếng</p>
-			</span>
-			<span class="time between float-left">:</span>
-			<span class="time float-left">
-				<p class="top minute">56</p>
-				<p class="bottom">Phút</p>
-			</span>
-			<span class="time between float-left">:</span>
-			<span class="time float-left">
-				<p class="top second">40</p>
-				<p class="bottom">Giây</p>
-			</span>
-			<div class="clearfix"></div>
+	<div class="content-form-register">
+		<img src="images/background-register.png" alt="" class="image-show">
+		<div class="background-image col-sm-6 zero-padding">
+			<img src="images/background-register.png" alt="" class="image-hide">
 		</div>
+		<div class="col-sm-6 zero-padding">
+			<div class="content-form">
+				<div class="green-color header-content">
+					<img src="images/background-register.png" alt="" class="image-show-respon">
+					<h3 class="text-center">
+						<span>Thu nhập cao</span>
+						<span>bằng chính khả năng</span>
+						<span>của bạn</span>
+					</h3>
+				</div>
+				<form action="" class="form-content-register">
+					<div class="form-group">
+						<input type="text" class="input-no-border" required>
+						<p class="form-content-text">
+							Họ tên đầy đủ của bạn <span class="pink-color">*</span>
+						</p>
+					</div>
+					<div class="form-group">
+						<input type="email" class="input-no-border" required>
+						<p class="form-content-text">
+							Địa chỉ Email <span class="pink-color">*</span>
+						</p>
+					</div>
+					<div class="form-group">
+						<input type="password" class="input-no-border" required>
+						<p class="form-content-text">
+							Mật Khẩu <span class="pink-color">*</span>
+						</p>
+					</div>
+					<div class="form-group">
+						<input type="password" class="input-no-border" required>
+						<p class="form-content-text">
+							Xác Nhận Mật Khẩu <span class="pink-color">*</span>
+						</p>
+					</div>
+					<div class="button">
+						<input type="submit" class="button-submit" value="ĐĂNG KÍ ĐỂ TRỞ THÀNH GIA SƯ NGAY">
+					</div>
+				</form>
+			</div>
+		</div>
+		<div class="clearfix"></div>
 	</div>
 </div>

@@ -1,8 +1,7 @@
 <div id="mod-footer">
 	<div class="content-top">
-		<img src="images/background-footer.png" alt="" class="background-image">
-		<div class="content-text relative-show">
-			<img src="images/home-text.png" alt="" class="image-home">
+		<div class="content-text green-color">
+			<img src="images/home-background-footer.png" alt="" class="image-home">
 			<div class="detail">
 				<p>Công ty Giáo dục và Đào tạo ANTOREE INTERNATIONAL PTE. LTD.</p>
 				<p>Trụ sở chính: 10 Anson Road, #26-04, International Plaza, Singapore 079903</p>

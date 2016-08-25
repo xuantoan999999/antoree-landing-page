@@ -1,0 +1,86 @@
+#require{
+	.require-list{
+		.image-item{
+			background: url('../images/requirement-bg-left.png') center center no-repeat;
+			background-size: cover;
+			img{
+				width: 100%;
+				min-height: 600px;
+			}
+		}
+		.require-item{
+			@include font($fontB,20px,white);
+			height: 100%;
+			padding: 20px;
+			background: $color3;
+			@include position(absolute,0,0,null,null,50);
+		}
+	}
+	.content-require-list{
+		@include position(relative);
+		width: 100%;
+		height: 100%;
+		.cross{
+			opacity: 0.5;
+			@include position(absolute);
+			z-index: 100;
+			opacity: 0.22;
+			background-color: black;
+		}
+		.row-cross{
+			width: 100%;
+			height: 1px;
+			@include position(null,50%,null,null,0);
+		}
+		.col-cross{
+			width: 1px;
+			height: 100%;
+			@include position(null,0,null,null,50%);
+		}
+	}
+	.content-require-item{
+		@include position(absolute);
+		min-width: 145px;
+		width: 50%;
+		height: 50%;
+		z-index: -1;
+		&.left{
+			left: 0;
+		}
+		&.right{
+			right: 0;
+		}
+		&.top{
+			top: 0;
+		}
+		&.bottom{
+			bottom: 0;
+		}
+		.content-image{
+			min-height: 75px;
+			margin-top: 10%;
+		}
+	}
+}
+@media only screen and (max-width: 768px) {
+	#require{
+		.require-list{
+			.image-item{
+				img{
+					min-height: 360px;
+				}
+			}
+			.content-text{
+				@include font(null,12px,null);
+			}
+		}
+		.content-require-item{
+			.content-image{
+				min-height: 60px;
+				img{
+					width: 54px;
+				}
+			}
+		}
+	}
+}

@@ -30,14 +30,11 @@ Description: Biên dịch các file được import thành 1 file CSS
 
 @import "../modules/landing-page/style";
 @import "../modules/landing-page/banner/style";
-@import "../modules/landing-page/learn-eng/style";
-@import "../modules/landing-page/why/style";
-@import "../modules/landing-page/talk-about/style";
+@import "../modules/landing-page/benefit/style";
+@import "../modules/landing-page/require/style";
+@import "../modules/landing-page/community/style";
+@import "../modules/landing-page/step/style";
 @import "../modules/landing-page/form-register/style";
-
-@import "../modules/register-kid/step-1/style";
-@import "../modules/register-kid/step-2/style";
-@import "../modules/register-kid/step-3/style";
 
 // Layout
 @import "layout/heading";
