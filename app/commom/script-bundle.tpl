@@ -15,6 +15,7 @@
 <script src="../../bower_components/jquery-mousewheel/jquery.mousewheel.js"></script>
 <script src="../../bower_components/jrespond/jRespond.js"></script>
 <script src="../../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
+<script src="../../bower_components/slick-carousel/slick/slick.js"></script>
 <!-- endbower -->
 <!-- endbuild -->
 <script src="scripts/languages.js"></script>

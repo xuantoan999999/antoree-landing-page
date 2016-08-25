@@ -8,7 +8,8 @@
     "jquery-mousewheel": "latest",
     "jrespond": "latest",
     "magnific-popup": "latest",
-    "jquery": "~2.2.0"
+    "jquery": "~2.2.0",
+    "slick-carousel": "^1.6.0"
   },
   "overrides": {
     "parallax": {

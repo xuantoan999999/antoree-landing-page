@@ -23,7 +23,7 @@
 					</div>
 					<div class="form-group">
 						<input type="email" class="input-no-border" required>
-						<p class="form-content-text">
+						<p class="form-content-text effect">
 							Địa chỉ Email <span class="pink-color">*</span>
 						</p>
 					</div>
