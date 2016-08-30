@@ -3,7 +3,11 @@
 	var mod = $('#mod-landing-page');
 
 	function slide() {
-		mod.find('#community .community-content-list').slick({
+		mod.find('#community .slick-desktop').slick({
+			infinite: true,
+			dots: true
+		});
+		mod.find('#community .slick-mobile .community-content-list').slick({
 			infinite: true,
 			dots: true
 		});
@@ -25,10 +29,22 @@
 			}
 		});
 	}
+	function scrollForm() {
+		mod.find('.to-form').each(function() {
+			$(this).on('click', function(event) {
+				event.preventDefault();
+				var link_href = "#form-register";
+				$('html, body').animate({
+					scrollTop: $(link_href).offset().top - 20
+				}, 1000);
+			});
+		})
+	}
 
 	$(document).ready(function() {
-		// slide();
+		slide();
 		popupBanner();
 		fixTop();
+		scrollForm();
 	});
 })();

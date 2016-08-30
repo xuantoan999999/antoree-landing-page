@@ -2,8 +2,10 @@
 	border-top: 1px solid #ebebeb;
 	border-bottom: 1px solid #ebebeb;
 	@include position(relative);
+	background: url('images/background-register.png') left top no-repeat;
+	background-size: cover;
 	h3{
-		@include font($fontB,30px,null);
+		@include font($fontSB,30px,null);
 		margin: 0;
 		margin-bottom: 40px;
 	}
@@ -46,6 +48,7 @@
 			@include position(absolute,0,null,null,0,-1);
 			width: 50%;
 			height: 100%;
+			min-width: 575px;
 		}
 	}
 	.button-submit{

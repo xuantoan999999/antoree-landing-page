@@ -1,11 +1,12 @@
 #require{
 	.require-list{
+		background: url('../images/requirement-bg-left.png') top left no-repeat;
+		background-size: cover;
 		.image-item{
-			background: url('../images/requirement-bg-left.png') center center no-repeat;
-			background-size: cover;
 			img{
 				width: 100%;
 				min-height: 600px;
+				opacity: 0;
 			}
 		}
 		.require-item{
@@ -44,6 +45,7 @@
 		width: 50%;
 		height: 50%;
 		z-index: -1;
+		padding: 0 10px;
 		&.left{
 			left: 0;
 		}
@@ -58,7 +60,7 @@
 		}
 		.content-image{
 			min-height: 75px;
-			margin-top: 10%;
+			margin-top: 15%;
 		}
 	}
 }

@@ -6,7 +6,7 @@
 			<h1>Gia Sư Tiếng Anh Trực Tuyến Tại Nhà</h1>
 			<p class="text-description">Tăng thu nhập, kết nối cộng đồng.</p>
 		</div>
-		<div class="button">
+		<div class="button to-form">
 			<a href="" class="button-submit">
 				ĐĂNG KÍ ĐỂ TRỞ THÀNH GIA SƯ NGAY
 			</a>
@@ -19,7 +19,7 @@
 		</div>
 		<p class="popup-text">Cùng Khám phá video giảng dạy tại Antoree</p>
 	</div>
-	<a class="down-arrow text-center">
+	<a class="down-arrow text-center to-form cur-pointer">
 		<img src="images/unknow-arrow.png" alt="">
 	</a>
 </div>

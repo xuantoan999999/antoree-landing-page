@@ -12,8 +12,8 @@
 							<img src="images/benefit-1.png" alt="">
 						</div>
 						<p class="green-color">
-							<span>Thu nhập cao</span>
-							<span>(lên đến 10t/ tháng)</span>
+							<span>Thu nhập dạy học</span>
+							<span>lên đến 6 triệu/ tháng</span>
 						</p>
 					</div>
 					<div class="content-text">
@@ -28,8 +28,8 @@
 							<img src="images/benefit-2.png" alt="">
 						</div>
 						<p class="green-color">
-							<span>Thời gian và địa điểm</span>
-							<span>dạy linh động</span>
+							<span>Tự do về</span>
+							<span>thời gian và địa điểm</span>
 						</p>
 					</div>
 					<div class="content-text">
@@ -46,22 +46,6 @@
 				<div class="content-item col-xs-12 col-sm-6">
 					<div class="header-content">
 						<div class="image-content">
-							<img src="images/benefit-3.png" alt="">
-						</div>
-						<p class="green-color">
-							<span>Được đào tạo kĩ năng</span>
-							<span>giảng dạy chuyên nghiệp</span>
-						</p>
-					</div>
-					<div class="content-text">
-						<p>
-							Antoree hỗ trợ tích cực trong việc đào tạo gia sư, cung cấp các hỗ trợ về tài liệu giảng dạy, các chia sẻ về phương pháp giảng dạy từ các gia sư hàng đầu."
-						</p>
-					</div>
-				</div>
-				<div class="content-item col-xs-12 col-sm-6">
-					<div class="header-content">
-						<div class="image-content">
 							<img src="images/benefit-4.png" alt="">
 						</div>
 						<p class="green-color">
@@ -73,6 +57,22 @@
 						<p>
 							Gia sư nhận được đảm bảo về quyền lợi nhận phí dạy hàng tháng
 							và nhận lớp liên tục tại Antoree.
+						</p>
+					</div>
+				</div>
+				<div class="content-item col-xs-12 col-sm-6">
+					<div class="header-content">
+						<div class="image-content">
+							<img src="images/benefit-3.png" alt="">
+						</div>
+						<p class="green-color">
+							<span>Được tham gia đào tạo</span>
+							<span>kĩ năng giảng dạy</span>
+						</p>
+					</div>
+					<div class="content-text">
+						<p>
+							Antoree hỗ trợ tích cực trong việc đào tạo gia sư, cung cấp các hỗ trợ về tài liệu giảng dạy, các chia sẻ về phương pháp giảng dạy từ các gia sư hàng đầu."
 						</p>
 					</div>
 				</div>

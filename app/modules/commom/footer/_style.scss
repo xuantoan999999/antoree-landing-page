@@ -4,7 +4,7 @@
 		color: white;
 		border-bottom: 1px solid #ebebeb;
 		.detail{
-			@include font($fontB,18px,null);
+			@include font($fontSB,18px,null);
 			margin-bottom: 42px;
 			p{
 				margin-bottom: 5px;

@@ -2,7 +2,7 @@
 	font-weight: lighter!important;
 	background: white;
 	width: 100%;
-	padding: 5px 50px 12.5px;
+	padding: 0 50px;
 	border-bottom: 2px solid #eee;
 	.home-text{
 		@include font($fontSB,10px,$color-text-1);
@@ -27,7 +27,7 @@
 	.right{
 		padding-top: 30px;
 		.hot-line{
-			@include font($fontB,16px,$color-text-1);
+			@include font($fontSB,16px,$color-text-1);
 		}
 		.green-color{
 			color: $color3;

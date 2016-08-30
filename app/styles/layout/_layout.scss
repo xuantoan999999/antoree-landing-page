@@ -36,7 +36,7 @@ a{
 	position: relative;
 }
 .button-submit{
-	@include font($fontB,null,white);
+	@include font($fontSB,null,white);
 	background: $color1;
 	display: inline-block;
 	border-radius: 5px;
@@ -47,7 +47,7 @@ a{
 	width: 100%;
 }
 .button-submit:hover{
-	@include font($fontB,null,white);
+	@include font($fontSB,null,white);
 	text-decoration: none;
 }
 .content-register-kid{
@@ -60,7 +60,7 @@ a{
 	color: $color3;
 }
 .blue-color{
-	@include font($fontB,null,#4a9be2);
+	@include font($fontSB,null,#4a9be2);
 }
 .pink-color{
 	color: #fb3468;
@@ -97,7 +97,7 @@ a{
 		width: 100%;
 		vertical-align: bottom;
 		background: transparent;
-		@include font($fontB,16px,#595959);
+		@include font($fontSB,16px,#595959);
 	}
 	.form-group{
 		border: 1px solid #ebebeb;
@@ -110,14 +110,14 @@ a{
 	.form-content-text{
 		@include position(absolute,5px,null,null,15px,-1);
 		transition: .2s ease all;
-		@include font($fontB,16px,#595959);
+		@include font($fontSB,16px,#595959);
 		transform: translate(0,50%);
 	}
 	input.input-no-border:focus~.form-content-text ,input.input-no-border:valid~.form-content-text,
 	input.input-no-border:focus~.form-content-text
 	select.input-no-border:focus~.form-content-text,.to-top-text{
 		transform: translate(0,0);
-		@include font($fontB,10px,null,400);
+		@include font($fontSB,10px,null,400);
 	}
 }
 .content-header{

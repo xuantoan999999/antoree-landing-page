@@ -3,7 +3,7 @@
 	.content-item{
 		padding: 35px 30px 35px 50px;
 		.header-content{
-			@include font($fontB,16px,null);
+			@include font($fontSB,16px,null);
 			margin-bottom: 17.5px;
 			.green-color{
 				display: inline-block;

@@ -1,7 +1,7 @@
 #community{
 	background: url('../images/background-comunity.png') right center no-repeat;
 	background-size: cover;
-	padding: 57px 0 95px;
+	padding: 57px 0 50px;
 	h2{
 		margin-top: 0;
 	}
@@ -27,7 +27,7 @@
 		}
 		.content-teacher-text{
 			padding-top: 20px;
-			@include font($fontB,12px,null);
+			@include font($fontSB,12px,null);
 		}
 		.content-item{
 			@include font(null,13px,$color-text-1);
@@ -36,13 +36,50 @@
 			margin-top: -10px;
 		}
 	}
+	.slick-desktop{
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+	.slick-mobile{
+		display: none;
+	}
+	.slick-desktop,.slick-mobile{
+		overflow: hidden;
+		padding-bottom: 35px;
+	}
+	.slick-next.slick-arrow,.slick-prev.slick-arrow{
+		@include position(absolute,null,-100%);
+	}
+	.slick-dots{
+		@include position(absolute,null,50%,0);
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		transform: translateX(50%);
+		li{
+			display: inline-block;
+			// background: $color3;
+			border-radius: 100%;
+			width: 10px;
+			height: 10px;
+			border: 2px solid #00ab6b;
+			margin: 0 5px;
+			cursor: pointer;
+			button{
+				display: none;
+			}
+		}
+		.slick-active{
+			background: $color3;
+		}
+	}
 }
 @media only screen and (max-width: 768px) {
 	#community{
 		.community-content-list{
 			img.float-right{
 				float: none;
-				margin: 0;
+				margin: 0 auto;
 			}
 			.content-teacher-text{
 				text-align: center;
@@ -52,6 +89,12 @@
 				margin-top: 0;
 				text-align: center;
 			}
+		}
+		.slick-mobile{
+			display: block;
+		}
+		.slick-desktop{
+			display: none;
 		}
 	}
 }

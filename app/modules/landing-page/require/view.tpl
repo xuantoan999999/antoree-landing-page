@@ -31,20 +31,20 @@
 				</div>
 				<div class="content-require-item text-center left bottom">
 					<div class="content-image">
-						<img src="images/requirement-icon-3.png" alt="">
-					</div>
-					<div class="content-text">
-						<p>Có kinh nghiệm</p>
-						<p>trong lĩnh vực giảng dạy</p>
-					</div>
-				</div>
-				<div class="content-require-item text-center right bottom">
-					<div class="content-image">
 						<img src="images/requirement-icon-4.png" alt="">
 					</div>
 					<div class="content-text">
 						<p>Có máy tính và</p>
 						<p>kết nối mạng Internet</p>
+					</div>
+				</div>
+				<div class="content-require-item text-center right bottom">
+					<div class="content-image">
+						<img src="images/requirement-icon-3.png" alt="">
+					</div>
+					<div class="content-text">
+						<p>Có kinh nghiệm</p>
+						<p>trong lĩnh vực giảng dạy</p>
 					</div>
 				</div>
 			</div>
