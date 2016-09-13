@@ -6,8 +6,8 @@
 			<h1>Gia Sư Tiếng Anh Trực Tuyến Tại Nhà</h1>
 			<p class="text-description">Tăng thu nhập, kết nối cộng đồng.</p>
 		</div>
-		<div class="button to-form">
-			<a href="" class="button-submit">
+		<div class="button">
+			<a href="" class="button-submit to-form">
 				ĐĂNG KÍ ĐỂ TRỞ THÀNH GIA SƯ NGAY
 			</a>
 		</div>
