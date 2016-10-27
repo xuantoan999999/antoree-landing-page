@@ -43,44 +43,30 @@
 							<div class="icon">
 								<img src="images/New-Layout/b-1.png">
 							</div>
-							<h3 class="h3Title">Đăng ký học và chọn gia sư </h3>
 							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
 							<div class="line-long near right"></div>
 						</div>
-						<ul>
-							<li>Antoree có hơn 1000 gia sư bản ngữ và Việt Nam ở nhiều lĩnh vực.</li>
-							<li>Học viên chọn gia sư phù hợp với mình và đăng ký học qua websie. </li>
-						</ul>
+						<p class="text-center">Đăng ký trên website và để lại thông tin số điện thoại cùng email</p>
 					</div>
 					<div class="learn">
 						<div class="head-learn">
 							<div class="icon">
 								<img src="images/New-Layout/b-2.png">
 							</div>
-							<h3 class="h3Title">Học thử miễn phí</h3>
 							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
 							<div class="line-long"></div>
 						</div>
-						<ul>
-							<li>Học viên được sắp xếp học thử 1 buổi miễn phí với giáo viên bản ngữ.</li>
-							<li>Buổi học thử sẽ giúp học viên nắm được thông tin, phương pháp dạy và phát âm của giáo viên.</li>
-							<li>Sau buổi học thử học viên quyết định có học tiếp hay không.</li>
-						</ul>
+						<p class="text-center">Trong 05 ngày Chuyên viên tư vấn tuyển sinh gọi lại hỗ trợ thông tin</p>
 					</div>
 					<div class="learn">
 						<div class="head-learn">
 							<div class="icon">
 								<img src="images/New-Layout/b-3.png">
 							</div>
-							<h3 class="h3Title">Nhận lộ trình học</h3>
 							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
 							<div class="line-long"></div>
 						</div>
-						<ul>
-							<li>Học viên sẽ được kiểm tra trình độ với bài Test đầu vào.</li>
-							<li>Giáo viên sẽ nhận kết quả kiểm tra để đánh giá trình độ của học viên.</li>
-							<li>Lộ trình của học viên sẽ được xây dựng trên mục tiêu và khả năng của học viên.</li>
-						</ul>
+						<p class="text-center">Làm bài kiểm tra trình độ tiếng Anh theo chuẩn quốc tế</p>
 					</div>
 
 					<div class="learn col">
@@ -88,26 +74,20 @@
 							<div class="icon">
 								<img src="images/New-Layout/b-4.png">
 							</div>
-							<h3 class="h3Title">Học trực tuyến với gia sư</h3>
 							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
 							<div class="line-long"></div>
 						</div>
-						<ul>
-							<li>Học viên sẽ học với gia sư mình lựa chọn học thử hoặc được hỗ trợ đổi sang giáo viên khác.</li>
-							<li>Học viên sẽ học online 1 kèm 1 với giáo viên qua skype.</li>
-							<li>Giáo viên có trách nhiệm gửi giáo trình/nội dung học và tài liệu cho học viên.</li>
-						</ul>
+						<p class="text-center">Hoàn thành thủ tục nhập học và đóng học phí</p>
 					</div>
 					<div class="learn col">
 						<div class="head-learn">
 							<div class="icon">
 								<img src="images/New-Layout/b-5.png">
 							</div>
-							<h3 class="h3Title">Đánh giá gia sư</h3>
 							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
 							<div class="line-long near left"></div>
 						</div>
-						<p>Kết thúc khóa học. Học viên sẽ để lại đánh giá, xếp hạng gia sư trong hồ sơ online của gia sư trên trang Antoree.com.</p>
+						<p class="text-center">Bắt đầu ngay với lộ trình học của riêng bạn</p>
 					</div>
 					<div class="clearfix"></div>
 				</div>
@@ -812,42 +792,35 @@
 	<div id="media" class="bg-gray">
 		<div class="container">
 			<h2 class="h2Title">BÁO CHÍ NÓI VỀ ANTOREE</h2>
-			<div class="list">
-				<div class="row">
-
-					<div class="col-sm-4 col-xs-12">
-						<div class="img">
-							<p><a target="_blank" href="http://ictnews.vn/khoi-nghiep/antoree-san-giao-dich-hoc-tieng-anh-dau-tien-cho-nguoi-viet-121863.ict">
-								<img src="images/New-Layout/img_ict_new.png" class="img-responsive" alt=""></a>
-							</p>
-						</div>
-						<p>“Dạy và học tiếng Anh cùng gia sư giờ đây sẽ trở nên đơn giản hơn nhờ sự trợ giúp của Antoree”</p>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="img">
-							<p><a id="imagespopup" href="" class="image-popup-vertical-fit">
-								<img src="images/New-Layout/img_ndh.png" class="img-responsive" alt="">
-							</a></p>
-						</div>
-						<p>“Cô gái 8X bỏ lương 3.000 USD/tháng để khởi nghiệp với mô hình gia sư "kiểu Uber"”</p>
-					</div>
-					<div class="col-sm-4 col-xs-12">
-						<div class="img">
-							<p><a target="_blank" href="https://www.techinasia.com/founders-institute-vietnam-batch-three">
-								<img src="images/New-Layout/img_tech_asia.png" class="img-responsive" alt=""></a>
-							</p>
-						</div>
-						<p>“This is another education startup that has built a platform to bring tutors in touch with students online.”</p>
-					</div>
-					<div class="clearfix"></div>
-				</div>
+			<div class="table text-center">
+				<a href="http://ictnews.vn/khoi-nghiep/antoree-san-giao-dich-hoc-tieng-anh-dau-tien-cho-nguoi-viet-121863.ict" target="_blank">
+					<img src="images/New-Layout/img_ict_new.png" alt="">
+				</a>
+				<a href="http://ndh.vn/co-gai-8x-bo-luong-3-000-usd-thang-de-khoi-nghiep-voi-mo-hinh-gia-su-kieu-uber--20160304085045463p128c143.news" target="_blank">
+					<img src="images/New-Layout/img_ndh.png" alt="">
+				</a>
+				<a href="http://thanhnien.vn/gioi-tre/co-gai-tre-khoi-nghiep-bang-du-an-uber-tim-gia-su-676801.html" target="_blank">
+					<img src="images/New-Layout/thanhnien_1.png" alt="">
+				</a>
+				<a href="http://doisong.vn/tu-bo-cong-viec-trieu-do-nu-doanh-nhan-8x-thanh-cong-khi-mang-mo-hinh-gia-su-uber-den-voi-ngan-nguoi-n38311.html" target="_blank">
+					<img src="images/New-Layout/logo-v3.png" alt="">
+				</a>
+				<a href="http://vietnamnet.vn/vn/kinh-doanh/doanh-nhan/bo-giam-doc-1-trieu-usd-o-singapore-lam-uber-gia-su-thu-4-ty-thang-333618.html" target="_blank">
+					<img src="images/New-Layout/logo-vnn.svg" alt="">
+				</a>
+				<a href="http://ictnews.vn/khoi-nghiep/antoree-san-giao-dich-hoc-tieng-anh-dau-tien-cho-nguoi-viet-121863.ict" target="_blank">
+					<img src="images/New-Layout/img_tech_asia.png" alt="">
+				</a>
+				<a href="http://thieunien.vn/34-bi-kip/14218-hoc-tieng-anh-phuong-phap-nao-moi-dung.html" target="_blank">
+					<img src="images/New-Layout/hoctro.png" alt="">
+				</a>
 			</div>
 		</div>
 	</div>
 	<div id="clients">
 		<div class="container-fluid">
 			<h2 class="h2Title">KHÁCH HÀNG VÀ ĐỐI TÁC CỦA ANTOREE</h2>
-			<div class="table">
+			<div class="table text-center">
 				<a href="">
 					<img src="images/New-Layout/customer-client-1.png" alt="">
 				</a>

@@ -18,39 +18,71 @@
 			dots: false
 		});
 	}
+	// function slideMedia() {
+	// 	mod.find('#media .table').slick({
+	// 		slidesToShow: 4,
+	// 		slidesToScroll: 1,
+	// 		autoplay: true,
+	// 		autoplaySpeed: 2000,
+	// 		infinite: true,
+	// 		variableWidth: true,
+	// 		responsive: [
+	// 		{
+	// 			breakpoint: 991,
+	// 			settings: {
+	// 				slidesToShow: 3,
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 768,
+	// 			settings: {
+	// 				slidesToShow: 2,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 450,
+	// 			settings: {
+	// 				slidesToShow: 1,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		}
+	// 		]
+	// 	});
+	// }
 
-	function slideClient() {
-		mod.find('#clients .table').slick({
-			slidesToShow: 4,
-			slidesToScroll: 1,
-			autoplay: true,
-			autoplaySpeed: 2000,
-			infinite: true,
-			variableWidth: true,
-			responsive: [
-			{
-				breakpoint: 991,
-				settings: {
-					slidesToShow: 3,
-				}
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1
-				}
-			},
-			{
-				breakpoint: 450,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1
-				}
-			}
-			]
-		});
-	}
+	// function slideClient() {
+	// 	mod.find('#clients .table').slick({
+	// 		slidesToShow: 4,
+	// 		slidesToScroll: 1,
+	// 		autoplay: true,
+	// 		autoplaySpeed: 2000,
+	// 		infinite: true,
+	// 		variableWidth: true,
+	// 		responsive: [
+	// 		{
+	// 			breakpoint: 991,
+	// 			settings: {
+	// 				slidesToShow: 3,
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 768,
+	// 			settings: {
+	// 				slidesToShow: 2,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		},
+	// 		{
+	// 			breakpoint: 450,
+	// 			settings: {
+	// 				slidesToShow: 1,
+	// 				slidesToScroll: 1
+	// 			}
+	// 		}
+	// 		]
+	// 	});
+	// }
 	
 	function TheBestAntoree(){
 		mod.find("#why .list").slick({
@@ -151,14 +183,15 @@
 			$(this).height(maxHeight);
 		})
 	}
-	
+
 	$(document).ready(function() {
 		// partner();
 		// clients();
 		activePopup();
 		addSuKienVaoButtons();
 		TheBestAntoree();
-		slideClient();
+		// slideClient();
+		// slideMedia();
 		popupBanner();
 		popupAds();
 		bestTeacher();

@@ -208,10 +208,11 @@
 			margin: 0 -15px;
 		}
 		.line-long{
-			height: 2px;
+			height: 4px;
 			background-color: #d9dedf;
 			width: 100%;
-			@include position(absolute,null,null,12px);
+			@include position(absolute,null,null,11px,null);
+			z-index: -1;
 		}
 		.near{
 			width: 50%;
@@ -228,6 +229,7 @@
 			padding:0 15px;
 			.icon{
 				height: 70px;
+				margin-bottom: 20px;
 				img{
 					height: 100%;
 				}
@@ -238,7 +240,6 @@
 			}
 			p{
 				margin-top:20px;
-				text-align: left;
 				padding:0 10px;
 			}
 			.row{
@@ -262,7 +263,6 @@
 			max-width: 1200px;
 			img{
 				margin:0 auto;
-				@include position(relative,null,null,null,null,1);
 			}
 			h3{
 				font-size: 16px;
@@ -270,10 +270,9 @@
 				margin:15px 0;
 			}
 			p{
-				font-family: $fontR;
+				font-family: $fontSB;
 				line-height: 20px;
 				margin-top: 10px;
-				text-align: justify;
 				span{
 					&.bold{
 						font-family: $fontB;
@@ -325,298 +324,307 @@
 		}
 		.text{
 			@include font($fontSBI);
-// max-width: 450px;
-}
-.avatar{
-	margin-bottom: 20px;
-	img{
-		width: 70px;
-		margin-right: 20px;
-	}
-}
-.name{
-	@include font($fontB,null,$color7);
-}
-.office{
-	@include font($fontR,null,#999999);
-}
-.comment-list{
-	padding: 30px;
-	max-width: 1255px;
-	margin: 0 auto;
-}
-.teacher{
-	border-left: 2px solid $color3;
-	padding-left: 10px;
-	margin-bottom: 50px;
-}
-.space{
-	height: 50px;
-}
-.green{
-	color: $color7;
-	text-decoration: none;
-}
-.margin-up{
-	margin-top: 50px;
-}
-.margin-down{
-	margin-top: -70px;
-}
-}
-.discount-register{
-	margin-bottom: 50px;
-	.discount-text{
-		line-height: 32px;
-		@include font($fontB,22px,#d0021b);
-		margin-bottom: 25px;
-	}
-	.form-group{
-		max-width: 550px;
-		margin: 0 auto;
-		background-color: transparent;
-		.input-text{
-			width: 75%;
-			height: 50px;
-			border: none;
-			color: #999;
-			padding: 10px 20px;
-			border-radius: 4px 0 0 4px;
-			border: 1px solid #999;
-			border-right: none;
 		}
-		input[type='submit']{
-			width: 25%;
-			border: none;
-			border-radius: 0 4px 4px 0;
-			height: 50px;
-		}
-	}
-}
-
-#why{
-	text-align: center;
-	padding: 80px 0 0 0;
-	background-color: #f2f2ee;
-	.image-heart{
-		@include position(relative,-25px);
-	}
-	.learn{
-		float: left;
-		width: 20%;
-		.icon{
-			height: 30px;
+		.avatar{
+			margin-bottom: 20px;
 			img{
-				height: 100%;
+				width: 70px;
+				margin-right: 20px;
 			}
 		}
-		.h3Title{
-			text-transform: inherit;
+		.name{
+			@include font($fontB,null,$color7);
 		}
-		p{
-			margin-top:20px;
-			padding:0 10px;
+		.office{
+			@include font($fontR,null,#999999);
+		}
+		.comment-list{
+			padding: 30px;
+			max-width: 1255px;
+			margin: 0 auto;
+		}
+		.teacher{
+			border-left: 2px solid $color3;
+			padding-left: 10px;
+			margin-bottom: 50px;
+		}
+		.space{
+			height: 50px;
+		}
+		.green{
+			color: $color7;
+			text-decoration: none;
+		}
+		.margin-up{
+			margin-top: 50px;
+		}
+		.margin-down{
+			margin-top: -70px;
 		}
 	}
-	.list{
-		margin-top: 70px;
-		position:relative;
-		.child-of-list{
-			padding:0 20px;
+	.discount-register{
+		margin-bottom: 50px;
+		.discount-text{
+			line-height: 32px;
+			@include font($fontB,22px,#d0021b);
+			margin-bottom: 25px;
 		}
-		button{
-			&.slick-arrow{
-				top: 100px;
-				width: 40px;
-				height: 40px;
-				z-index: 10;
-				&:before{
-					content: '';
-				}
+		.form-group{
+			max-width: 550px;
+			margin: 0 auto;
+			background-color: transparent;
+			.input-text{
+				width: 75%;
+				height: 50px;
+				border: none;
+				color: #999;
+				padding: 10px 20px;
+				border-radius: 4px 0 0 4px;
+				border: 1px solid #999;
+				border-right: none;
 			}
-			&.slick-prev{
-				left: -10%;
-				margin-left:40px;
-				background:url(../images/button-arrow-prev.png) left top no-repeat;
-			}
-			&.slick-next{
-				background:url(../images/button-arrow-next.png) left top no-repeat;
-				right: -10%;
-				margin-right:40px;
-			}
-		}
-		.line-long{
-			height: 2px;
-			background:#999;
-			width: 960px;
-			position:absolute;
-			top:94px;
-			left: 94px;
-			margin-left: -480px;
-		}
-		img{
-			margin:0 auto;
-		}
-		h3{
-			font-size: 18px;
-			line-height: 22px;
-			margin:15px 0;
-			height: 70px;
-		}
-		p{
-			font-family: $fontR;
-			line-height: 20px;
-			margin-top: 0;
-			text-align: justify;
-			span{
-				&.bold{
-					font-family: $fontB;
-				}
-			}
-		}
-	}
-}
-#media{
-	text-align:center;
-	padding: 100px 0;
-	.list{
-		margin-top: 70px;
-		.img{
-			@include sizeEx(100%,81px);
-			display: table;
-			vertical-align: middle;
-			p{
-				margin:0px;
-				display: table-cell;
-				vertical-align: middle;
-			}
-		}
-		img{
-			margin:0 auto;
-		}
-		h3{
-			font-size: 16px;
-			line-height: 22px;
-			margin:15px 0;
-		}
-		p{
-			text-align: justify;
-			line-height: 22px;
-			@include font($fontBI,16px);
-		}
-	}
-}
-#clients{
-	margin-bottom: 50px;
-	.h2Title{
-		margin-bottom: 40px;
-	}
-	.table{
-		max-width: 1225px;
-		width: 100%;
-		margin: 0 auto 20px;
-		img{
-			margin: 0 20px 0 0;
-		}
-	}
-	.slick-next{
-		right: 0;
-	}
-}
-#register{
-	@include sizeEx(100%);
-	display:table;
-	text-align: center;
-	margin: 50px 0 75px;
-	.content{
-		display: table-cell;
-		vertical-align: middle;
-	}
-}
-#form-register{
-	background: url("../images/New-Layout/register-background.jpg") center center no-repeat;
-	background-size: cover;
-	padding: 50px 0;
-	.form{
-		background: transparent;
-		max-width: 350px;
-		width: 100%;
-		margin: 0 auto;
-		padding: 0 10px;
-		h2.h4Title{
-			display: inline-block;
-			@include font($fontB,22px,#fff);
-			margin:0 0 15px;
-		}
-	}
-	.error-messages{
-		@include position(absolute,null,0px,-10px,null,1);
-		@include font(null,12px,red,null,italic);
-		background:#fff;
-		box-shadow:1px 1px 1px red;
-		padding:2px 6px;
-		border-radius: 3px;
-		display: none;
-		&.ng-active{
-			display: block;
-		}
-	}
-	form{
-		input{
-			&#btDangKyBanner{
-				margin-top: 15px;
+			input[type='submit']{
+				width: 25%;
+				border: none;
+				border-radius: 0 4px 4px 0;
 				height: 50px;
 			}
-			&.border-red{
-				box-shadow:0px 0px 2px 0px red;
-				border:1px solid red;
-			}
 		}
 	}
 
-	.btn-default{
-		background:#F9B000;
-		@include font($fontSB,18px,white);
-		height: 50px;
-		width: 100%;
-	}
-	p{
-		@include font(null,14px,#fff);
-		margin-bottom: 20px;
-	}
-	.form-group{
-		background: #fff;
-		border-radius: 3px;
-		position:relative;
-		margin-bottom:3px;
-		input{
-			background:none;
-			border:none;
-			box-shadow:none;
-			outline: none;
-			height: 40px;
-			margin-bottom: 10px;
-			@include font($fontR,14px,#999);
-			border-radius: 3px;
-			padding-left: 45px;
-			&#exampleInputText{
-				background:url(../images/home_form_ic_person.png)no-repeat 10px;
+	#why{
+		text-align: center;
+		padding: 80px 0 0 0;
+		background-color: #f2f2ee;
+		.image-heart{
+			@include position(relative,-25px);
+		}
+		.learn{
+			float: left;
+			width: 20%;
+			.icon{
+				height: 30px;
+				img{
+					height: 100%;
+				}
 			}
-			&#exampleInputSDT{
-				background:url(../images/home_form_ic_phone.png)no-repeat 10px;
+			.h3Title{
+				text-transform: inherit;
 			}
-			&#exampleInputEmail{
-				background:url(../images/home_form_ic_mail.png)no-repeat 10px;
+			p{
+				margin-top:20px;
+				padding:0 10px;
+			}
+		}
+		.list{
+			margin-top: 70px;
+			position:relative;
+			.child-of-list{
+				padding:0 20px;
+			}
+			button{
+				&.slick-arrow{
+					top: 100px;
+					width: 40px;
+					height: 40px;
+					z-index: 10;
+					&:before{
+						content: '';
+					}
+				}
+				&.slick-prev{
+					left: -10%;
+					margin-left:40px;
+					background:url(../images/button-arrow-prev.png) left top no-repeat;
+				}
+				&.slick-next{
+					background:url(../images/button-arrow-next.png) left top no-repeat;
+					right: -10%;
+					margin-right:40px;
+				}
+			}
+			.line-long{
+				height: 2px;
+				background:#999;
+				width: 960px;
+				position:absolute;
+				top:94px;
+				left: 94px;
+				margin-left: -480px;
+			}
+			img{
+				margin:0 auto;
+			}
+			h3{
+				font-size: 18px;
+				line-height: 22px;
+				margin:15px 0;
+				height: 70px;
+			}
+			p{
+				font-family: $fontR;
+				line-height: 20px;
+				margin-top: 0;
+				text-align: justify;
+				span{
+					&.bold{
+						font-family: $fontB;
+					}
+				}
 			}
 		}
 	}
-	a{
-		display: block;
-		width: 100%;
-		font-size:15px;
-		margin-top: 15px;
+	#media{
+		text-align:center;
+		padding: 100px 0 0;
+		// .list{
+		// 	margin-top: 70px;
+		// 	.img{
+		// 		@include sizeEx(100%,81px);
+		// 		display: table;
+		// 		vertical-align: middle;
+		// 		p{
+		// 			margin:0px;
+		// 			display: table-cell;
+		// 			vertical-align: middle;
+		// 		}
+		// 	}
+		// 	img{
+		// 		margin:0 auto;
+		// 	}
+		// 	h3{
+		// 		font-size: 16px;
+		// 		line-height: 22px;
+		// 		margin:15px 0;
+		// 	}
+		// 	p{
+		// 		text-align: justify;
+		// 		line-height: 22px;
+		// 		@include font($fontBI,16px);
+		// 	}
+		// }
+		.table{
+			max-width: 1225px;
+			width: 100%;
+			margin: 50px auto 70px;
+			a{
+				text-decoration: none;
+				display: inline-block;
+				margin: 0 55px 40px 0;
+			}
+		}
 	}
-}
+	#clients{
+		margin-bottom: 50px;
+		.h2Title{
+			margin-bottom: 40px;
+		}
+		.table{
+			max-width: 1225px;
+			width: 100%;
+			margin: 0 auto 20px;
+			img{
+				margin: 0 20px 0 0;
+			}
+		}
+		.slick-next{
+			right: 0;
+		}
+	}
+	#register{
+		@include sizeEx(100%);
+		display:table;
+		text-align: center;
+		margin: 50px 0 75px;
+		.content{
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	#form-register{
+		background: url("../images/New-Layout/register-background.jpg") center center no-repeat;
+		background-size: cover;
+		padding: 50px 0;
+		.form{
+			background: transparent;
+			max-width: 350px;
+			width: 100%;
+			margin: 0 auto;
+			padding: 0 10px;
+			h2.h4Title{
+				display: inline-block;
+				@include font($fontB,22px,#fff);
+				margin:0 0 15px;
+			}
+		}
+		.error-messages{
+			@include position(absolute,null,0px,-10px,null,1);
+			@include font(null,12px,red,null,italic);
+			background:#fff;
+			box-shadow:1px 1px 1px red;
+			padding:2px 6px;
+			border-radius: 3px;
+			display: none;
+			&.ng-active{
+				display: block;
+			}
+		}
+		form{
+			input{
+				&#btDangKyBanner{
+					margin-top: 15px;
+					height: 50px;
+				}
+				&.border-red{
+					box-shadow:0px 0px 2px 0px red;
+					border:1px solid red;
+				}
+			}
+		}
+
+		.btn-default{
+			background:#F9B000;
+			@include font($fontSB,18px,white);
+			height: 50px;
+			width: 100%;
+		}
+		p{
+			@include font(null,14px,#fff);
+			margin-bottom: 20px;
+		}
+		.form-group{
+			background: #fff;
+			border-radius: 3px;
+			position:relative;
+			margin-bottom:3px;
+			input{
+				background:none;
+				border:none;
+				box-shadow:none;
+				outline: none;
+				height: 40px;
+				margin-bottom: 10px;
+				@include font($fontR,14px,#999);
+				border-radius: 3px;
+				padding-left: 45px;
+				&#exampleInputText{
+					background:url(../images/home_form_ic_person.png)no-repeat 10px;
+				}
+				&#exampleInputSDT{
+					background:url(../images/home_form_ic_phone.png)no-repeat 10px;
+				}
+				&#exampleInputEmail{
+					background:url(../images/home_form_ic_mail.png)no-repeat 10px;
+				}
+			}
+		}
+		a{
+			display: block;
+			width: 100%;
+			font-size:15px;
+			margin-top: 15px;
+		}
+	}
 }
 @media only screen and (max-width: 1165px) {
 	#mod-landing-page{
