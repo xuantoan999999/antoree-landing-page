@@ -1,14 +1,14 @@
 #mod-step-1{
-	margin-top: 35px;
+	margin-top: 25px;
 	margin-bottom: 40px;
 	p{
 		margin: 0;
 	}
 	.header-register-1{
-		margin-bottom: 22.5px;
+		margin-bottom: 15px;
 		h1{
 			@include font(null,28px,$color-text-1);
-			line-height: 42px;
+			line-height: 35px;
 			margin: 0 0 10px;
 		}
 		.green-color{
@@ -18,10 +18,16 @@
 	.header-section{
 		margin-bottom: 20px;
 		.content-header{
-			max-width: 460px;
+			max-width: 475px;
 			.image-header{
 				margin-top: -15px;
 			}
+		}
+	}
+	.form-content-register{
+		.form-group{
+			margin-bottom: 17.5px;
+			height: 55px;
 		}
 	}
 }

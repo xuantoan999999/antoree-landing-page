@@ -1,16 +1,16 @@
 <div id="mod-step-1" class="content-register-kid">
 	<div class="header-section text-center">
 		<div class="header-register-1 text-center">
-			<h1>Chương trình tiếng Anh trẻ em chất lượng cao học 1 kèm 1 trực tuyến với giáo viên bản ngữ</h1>
+			<h1>Chương trình Đào tạo tiếng Anh trẻ em chất lượng cao học trực tuyến 1 kèm 1</h1>
 			<h1></h1>
 			<p class="green-color">
 				( Chương trình dành cho bé từ 6-15 tuổi )
 			</p>
 		</div>
-		<div class="content-header blue-color">
+		<div class="content-header blue-color" style="text-transform: none;">
 			<img src="images/register-step-1-left.png" alt="" class="image-header left">
-			<p>Phụ huynh vui lòng để lại thông tin chính xác.</p>
-			<p>Tư vấn viên sẽ liên hệ sắp lớp HỌC THỬ MIỄN PHÍ và tư vấn ĐẦY ĐỦ THÔNG TIN sau 1-2 ngày.</p>
+			<p>Vui lòng để lại thông tin chính xác để Tư vấn viên Antoree liên lạc</p>
+			<p>KIÊM TRA ĐẦU VÀO và XÂY DỰNG LỘ TRÌNH HỌC MIỄN PHÍ sớm nhất</p>
 			<img src="images/register-step-1-right.png" alt="" class="image-header right">
 			<div class="clearfix"></div>
 		</div>
