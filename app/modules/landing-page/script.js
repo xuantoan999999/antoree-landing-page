@@ -143,12 +143,12 @@
 			event.preventDefault();
 			helperJs.bzPopup({
 				rel: '#popup-ads',
-				width: 700
+				width: 900
 			});
 		});
 		setTimeout(function() {
 			mod.find('#popup-ad button#popup').trigger('click');
-		},10000);
+		},5000);
 	}
 
 	function bestTeacher() {

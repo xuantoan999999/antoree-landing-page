@@ -6,6 +6,25 @@
 <meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="shortcut icon" href="favicon.ico">
+<!-- AMP (Accelerated Mobile Pages) Script -->
+<script async src="https://cdn.ampproject.org/v0.js"></script>
+<link rel="canonical" href="http://example.ampproject.org/article-metadata.html" />
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+        "logo.jpg"
+        ]
+    }
+</script>
+<style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+<script async custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+<script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+<script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <!-- Social: Facebook / Open Graph -->
 <meta property="og:title" content="Title">
 <meta property="og:image" content="https://localhost:9999/images/social-avatar.jpg">

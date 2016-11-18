@@ -24,10 +24,10 @@
 				ĐĂNG KÝ HỌC THỬ MIỄN PHÍ
 			</a>
 			<a href="" class="popup-youtube" id="youtube-1">
-				<img src="images/New-Layout/play-youtube-popup.png" alt="">
+				<amp-img src='images/New-Layout/play-youtube-popup.png' width="80" height="80"></amp-img>
 			</a>
 			<div id="popup-banner" class="bzPopup bzPopupAnimation mfp-hide">
-				<iframe width="100%" height="360" src="https://www.youtube.com/embed/qkt8mJol_KY" frameborder="0" allowfullscreen></iframe>
+				<amp-youtube data-videoid="qkt8mJol_KY" layout="responsive" width="480" height="270"></amp-youtube>
 			</div>
 
 		</div>
@@ -41,9 +41,9 @@
 					<div class="learn">
 						<div class="head-learn">
 							<div class="icon">
-								<img src="images/New-Layout/b-1.png">
+								<amp-img src='images/New-Layout/b-1.png' width="48" height="70"></amp-img>
 							</div>
-							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
+							<amp-img src='images/New-Layout/arrow-circle.png' media="(min-width: 1023px)" width="26" height="26"></amp-img>
 							<div class="line-long near right"></div>
 						</div>
 						<p class="text-center">Đăng ký trên website và để lại thông tin số điện thoại cùng email</p>
@@ -51,9 +51,9 @@
 					<div class="learn">
 						<div class="head-learn">
 							<div class="icon">
-								<img src="images/New-Layout/b-2.png">
+								<amp-img src='images/New-Layout/b-2.png' width="75" height="70"></amp-img>
 							</div>
-							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
+							<amp-img src='images/New-Layout/arrow-circle.png' media="(min-width: 1023px)" width="26" height="26"></amp-img>
 							<div class="line-long"></div>
 						</div>
 						<p class="text-center">Trong 05 ngày Chuyên viên tư vấn tuyển sinh gọi lại hỗ trợ thông tin</p>
@@ -61,9 +61,9 @@
 					<div class="learn">
 						<div class="head-learn">
 							<div class="icon">
-								<img src="images/New-Layout/b-3.png">
+								<amp-img src='images/New-Layout/b-3.png' width="65" height="70"></amp-img>
 							</div>
-							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
+							<amp-img src='images/New-Layout/arrow-circle.png' media="(min-width: 1023px)" width="26" height="26"></amp-img>
 							<div class="line-long"></div>
 						</div>
 						<p class="text-center">Làm bài kiểm tra trình độ tiếng Anh theo chuẩn quốc tế</p>
@@ -72,9 +72,9 @@
 					<div class="learn col">
 						<div class="head-learn">
 							<div class="icon">
-								<img src="images/New-Layout/b-4.png">
+								<amp-img src='images/New-Layout/b-4.png' width="72" height="70"></amp-img>
 							</div>
-							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
+							<amp-img src='images/New-Layout/arrow-circle.png' media="(min-width: 1023px)" width="26" height="26"></amp-img>
 							<div class="line-long"></div>
 						</div>
 						<p class="text-center">Hoàn thành thủ tục nhập học và đóng học phí</p>
@@ -82,9 +82,9 @@
 					<div class="learn col">
 						<div class="head-learn">
 							<div class="icon">
-								<img src="images/New-Layout/b-5.png">
+								<amp-img src='images/New-Layout/b-5.png' width="85.75" height="70"></amp-img>
 							</div>
-							<img src="images/New-Layout/arrow-circle.png" class="img-arrow">
+							<amp-img src='images/New-Layout/arrow-circle.png' media="(min-width: 1023px)" width="26" height="26"></amp-img>
 							<div class="line-long near left"></div>
 						</div>
 						<p class="text-center">Bắt đầu ngay với lộ trình học của riêng bạn</p>
@@ -108,7 +108,7 @@
 			<div class="row information-list">
 				<div class="col-sm-4">
 					<div class="information-image float-left">
-						<img src="images/New-Layout/infor-1.png" alt="">
+						<amp-img src="images/New-Layout/infor-1.png" width="97" height="97"></amp-img>
 					</div>
 					<div class="information-text text-left">
 						<p class="head">200+</p>
@@ -118,7 +118,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="information-image float-left">
-						<img src="images/New-Layout/infor-2.png" alt="">
+						<amp-img src="images/New-Layout/infor-2.png" width="100" height="100"></amp-img>
 					</div>
 					<div class="information-text text-left">
 						<p class="head">1000+</p>
@@ -128,7 +128,7 @@
 				</div>
 				<div class="col-sm-4">
 					<div class="information-image float-left">
-						<img src="images/New-Layout/infor-3.png" alt="">
+						<amp-img src="images/New-Layout/infor-3.png" width="95" height="95"></amp-img>
 					</div>
 					<div class="information-text text-left">
 						<p class="head">2000+</p>
@@ -145,7 +145,7 @@
 		<h2 class="h2Title">LỚP HỌC TRÊN ANTOREE</h2>
 
 		<div class="video">
-			<iframe src="https://www.youtube.com/embed/o8kvtzBT940?list=PLiI_5X8_LDdY5BVKnyjGWt8_c6512fUF2" frameborder="0" allowfullscreen></iframe>
+			<amp-youtube data-videoid="o8kvtzBT940" layout="responsive" width="640" height="360"></amp-youtube>
 		</div>
 		<div class="button">
 			<a href="" class="new-button trial-learn">ĐĂNG KÝ HỌC THỬ</a>
@@ -159,7 +159,7 @@
 				<div class="teacher-list">
 					<div class="teacher gridder-list" data-griddercontent="#teacher-1">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-1.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-1.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -209,7 +209,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-2">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-2.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-2.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -258,7 +258,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-3">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-3.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-3.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -307,7 +307,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-4">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-4.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-4.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -356,7 +356,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-5">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-5.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-5.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -406,7 +406,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-6">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-6.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-6.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -454,7 +454,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-7">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-7.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-7.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -503,7 +503,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-8">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-8.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-8.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -555,7 +555,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-9">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-9.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-9.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -604,7 +604,7 @@
 					</div>
 					<div class="teacher gridder-list" data-griddercontent="#teacher-10">
 						<div class="teacher-content">
-							<img src="images/New-Layout/teacher-best-10.jpg" alt="" class="img-responsive image-teacher">
+							<amp-img src="images/New-Layout/teacher-best-10.jpg" width="95" height="95" layout="responsive"></amp-img>
 							<div class="detail-teacher">
 								<div class="info-teacher">
 									<div class="teacher-name">
@@ -742,49 +742,49 @@
 			</h2>
 			<div class="list">
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-1.png">
+					<amp-img src="images/New-Layout/good-1.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">HỌC 1 - 1 HIỆU QUẢ HƠN 40% SO VỚI LỚP ĐÔNG HỌC VIÊN</h3>
 					<p>• Tăng 4 lần thời lượng giao tiếp với giáo viên</p>
 					<p>• Lộ trình thiết kế riêng cho trình độ của từng người học</p>
 					<p>• Không còn phải ngại ngùng khi nói. Chỉ có giáo viên lắng nghe và sửa từng lỗi cho bạn</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-2.png">
+					<amp-img src="images/New-Layout/good-2.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">HỌC VỚI GIA SƯ BẢN NGỮ TĂNG VỐN TIẾNG ANH CỰC NHANH</h3>
 					<p>• Giáo viên bản ngữ giúp bạn TIẾP THU Tiếng Anh MỘT CÁCH TỰ NHIÊN, khả năng ứng dụng thực tiễn cao, giảm thiểu các bài ngữ pháp khô cứng</p>
-					<p>• Giáo viên bản ngữ giúp bạn phát âm chuẩn, tự tin khi giao tiếp với người nước ngoài.</p>			
+					<p>• Giáo viên bản ngữ giúp bạn phát âm chuẩn, tự tin khi giao tiếp với người nước ngoài.</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-3.png">
+					<amp-img src="images/New-Layout/good-3.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">HỌC ONLINE LỰA CHỌN ĐA DẠNG, TIẾT KIỆM THỜI GIAN KHÔNG CẦN DI CHUYỂN</h3>
 					<p>• Bạn có thể học bất cứ khóa học nào: Tiếng Anh giao tiếp, luyện thi chứng chỉ tiếng Anh,học tiếng anh chuyên ngành kế toán lập trình, tiếng anh thương mại, tiếng anh phỏng vấn xin việc, tiếng anh du học, tiếng Anh du lịch, tiếng Anh phỏng vấn định cư...</p>
 					<p>• Bạn được lựa chọn từ hơn 1000+ gia sư bản ngữ Mỹ, Anh, Úc, Philippines</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-4.png">
+					<amp-img src="images/New-Layout/good-4.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">HỌC PHÍ HỢP LÝ</h3>
 					<p>• Được học với giảng viên bản ngữ chi phí phù hợp với khả năng chi trả của hầu hết học viên.</p>
 					<p>• Tiết kiệm đến 40% so với học ở các trung tâm, mô hình khác (Học phí cả khóa của Antoree từ 2.7 triệu cho 30 buổi. Học phí trung bình ở các trung tâm lớp đông người là 80 - 200k/buổi tương đương 4 triệu cho khóa 20 buổi với lớp học quy mô trên 6 học viên).</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-5.png">
+					<amp-img src="images/New-Layout/good-5.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">MIỄN PHÍ 100% TÀI LIỆU</h3>
 					<p>Không cần phải mua tài liệu đắt tiền, bạn được gia sư chuẩn bị toàn bộ giáo trình online và MIỄN PHÍ.</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-6.png">
+					<amp-img src="images/New-Layout/good-6.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">MIẾN PHÍ HỌC THỬ</h3>
 					<p>Bạn được học thử không tính phí 01 buổi với giáo viên bản ngữ.</p>
 				</div>
 				<div class="child-of-list">
-					<img src="images/New-Layout/good-7.png">
+					<amp-img src="images/New-Layout/good-7.png" width="60" height="60"></amp-img>
 					<h3 class="h3Title">HỖ TRỢ 24/7</h3>
 					<p>• Bạn được đổi giáo viên nếu giáo viên không phù hợp.</p>
 					<p>• Bạn được đổi/ hoãn lịch học và hỗ trợ kỹ thuật trong suốt quá trình học.</p>
 				</div>
 			</div>
 			<div class="button-register">
-				<a href="" class="new-button trial-learn">ĐĂNG KÝ HỌC THỬ</a>
+				<a href="" class="new-button trial-learn">KIỂM TRA TRÌNH ĐỘ MIỄN PHÍ</a>
 			</div>
 		</div>
 	</div>
@@ -794,53 +794,54 @@
 			<h2 class="h2Title">BÁO CHÍ NÓI VỀ ANTOREE</h2>
 			<div class="table text-center">
 				<a href="http://ictnews.vn/khoi-nghiep/antoree-san-giao-dich-hoc-tieng-anh-dau-tien-cho-nguoi-viet-121863.ict" target="_blank">
-					<img src="images/New-Layout/img_ict_new.png" alt="">
+					<amp-img src="images/New-Layout/img_ict_new.png" width="180" height="55"></amp-img>
 				</a>
 				<a href="http://ndh.vn/co-gai-8x-bo-luong-3-000-usd-thang-de-khoi-nghiep-voi-mo-hinh-gia-su-kieu-uber--20160304085045463p128c143.news" target="_blank">
-					<img src="images/New-Layout/img_ndh.png" alt="">
+					<amp-img src="images/New-Layout/img_ndh.png" width="166" height="55"></amp-img>
 				</a>
 				<a href="http://thanhnien.vn/gioi-tre/co-gai-tre-khoi-nghiep-bang-du-an-uber-tim-gia-su-676801.html" target="_blank">
-					<img src="images/New-Layout/thanhnien_1.png" alt="">
+					<amp-img src="images/New-Layout/thanhnien_1.png" width="190" height="40"></amp-img>
 				</a>
 				<a href="http://doisong.vn/tu-bo-cong-viec-trieu-do-nu-doanh-nhan-8x-thanh-cong-khi-mang-mo-hinh-gia-su-uber-den-voi-ngan-nguoi-n38311.html" target="_blank">
-					<img src="images/New-Layout/logo-v3.png" alt="">
+					<amp-img src="images/New-Layout/logo-v3.png" width="182" height="54"></amp-img>
 				</a>
 				<a href="http://vietnamnet.vn/vn/kinh-doanh/doanh-nhan/bo-giam-doc-1-trieu-usd-o-singapore-lam-uber-gia-su-thu-4-ty-thang-333618.html" target="_blank">
-					<img src="images/New-Layout/logo-vnn.svg" alt="">
+					<amp-img src="images/New-Layout/logo-vnn.svg" width="130" height="50"></amp-img>
 				</a>
-				<a href="http://ictnews.vn/khoi-nghiep/antoree-san-giao-dich-hoc-tieng-anh-dau-tien-cho-nguoi-viet-121863.ict" target="_blank">
-					<img src="images/New-Layout/img_tech_asia.png" alt="">
+				<a href="http://thanhnien.vn/gioi-tre/co-gai-tre-khoi-nghiep-bang-du-an-uber-tim-gia-su-676801.html" target="_blank">
+					<amp-img src="images/New-Layout/img_tech_asia.png" width="229" height="40"></amp-img>
 				</a>
 				<a href="http://thieunien.vn/34-bi-kip/14218-hoc-tieng-anh-phuong-phap-nao-moi-dung.html" target="_blank">
-					<img src="images/New-Layout/hoctro.png" alt="">
+					<amp-img src="images/New-Layout/hoctro.png" width="171" height="50"></amp-img>
 				</a>
 			</div>
 		</div>
 	</div>
+
 	<div id="clients">
 		<div class="container-fluid">
 			<h2 class="h2Title">KHÁCH HÀNG VÀ ĐỐI TÁC CỦA ANTOREE</h2>
 			<div class="table text-center">
 				<a href="">
-					<img src="images/New-Layout/customer-client-1.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-1.png" width="150" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-2.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-2.png" width="198" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-3.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-3.png" width="300" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-4.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-4.png" width="200" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-5.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-5.png" width="200" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-6.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-6.png" width="200" height="150"></amp-img>
 				</a>
 				<a href="">
-					<img src="images/New-Layout/customer-client-7.png" alt="">
+					<amp-img src="images/New-Layout/customer-client-7.png" width="300" height="150"></amp-img>
 				</a>
 			</div>
 		</div>
