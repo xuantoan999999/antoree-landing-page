@@ -1,11 +1,13 @@
 <div id="mod-header">
 	<div class="left float-left">
 		<a href="index.html" class="logo float-left">
-			<img src="images/home-kid.png" class="img-responsive" alt="">
+			<amp-img src="images/home-kid.png" media="(min-width: 615px)" width="360" height="29"></amp-img>
+			<amp-img src="images/home-kid.png" media="(max-width: 615px)" width="230" height="18"></amp-img>
 			<p class="home-text">Chương trình tiếng Anh trực tuyến chất lượng cao cho trẻ em</p>
 		</a>
 		<div class="float-left home-menu-image">
-			<img src="images/home-menu.png" alt="">
+			<amp-img src="images/home-menu.png" media="(min-width: 615px)" width="156" height="72"></amp-img>
+			<amp-img src="images/home-menu.png" media="(max-width: 615px)" width="100" height="46"></amp-img>
 		</div>
 		<div class="clearfix"></div>
 	</div>

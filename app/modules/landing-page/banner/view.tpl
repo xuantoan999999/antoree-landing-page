@@ -1,7 +1,7 @@
 <div id="banner">
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
-			<img src="images/abc.png" alt="">
+			<amp-img src="images/abc.png" width="144" height="50"></amp-img>
 			<div class="content text-center">
 				<h1>
 					Chương trình tiếng Anh trẻ em chất lượng cao
@@ -41,7 +41,8 @@
 
 		</div>
 		<div class="content-right col-xs-12 col-sm-6 text-right">
-			<iframe width="100%" height="340" src="https://www.youtube.com/embed/fyOyBAZKCsc?list=PLiI_5X8_LDdapbpa2c6f5l9w8CEYOz2Y_" frameborder="0" allowfullscreen style="max-width:690px;"></iframe>
+			<amp-youtube data-videoid="fyOyBAZKCsc" width="690" height="340" media="(min-width:1280px)"></amp-youtube>
+			<amp-youtube data-videoid="fyOyBAZKCsc" width="690" height="340" layout="responsive" media="(max-width:1280px)"></amp-youtube>
 		</div>
 		<div class="clearfix"></div>
 	</div>
