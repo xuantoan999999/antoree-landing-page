@@ -1,5 +1,11 @@
 <div id="why">
 	<div class="header">
+		<div class="image-learn-eng left">
+			<amp-img src="images/image-learn-eng-1.png" width="338" height="341" layout="responsive"></amp-img>
+		</div>
+		<div class="image-learn-eng left">
+			<amp-img src="images/image-learn-eng-1.png" width="338" height="341" layout="responsive"></amp-img>
+		</div>
 		<img src="images/why-bird-1.png" alt="" class="image-bird bird-left">
 		<img src="images/why-bird-2.png" alt="" class="image-bird bird-right">
 		<h2 class="h2Title text-center">
