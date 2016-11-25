@@ -14,8 +14,11 @@
 			height: 22px;
 		}
 	}
+	.marg-top-10{
+		margin-top: 10px;
+	}
 	.hot-line{
-		display: none;
+		margin-bottom: 10px;
 		@include font($fontR,null,$color-text-1);
 		.phone{
 			@include font($fontSB,null,#d0021b);

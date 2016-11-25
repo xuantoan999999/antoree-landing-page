@@ -1,9 +1,9 @@
 #mod-landing-page{
 	padding-top: 70px;
 	h1{
-		@include font($fontB,38px,#00ab6b);
+		@include font($fontB,30px,#00ab6b);
 		margin: 0;
-		line-height: 55px;
+		line-height: 46px;
 	}
 	.h2Title{
 		@include font($fontSB,24px);
@@ -52,6 +52,10 @@
 		}
 		.new-button{
 			margin: 0 25px 0 0;
+		}
+		.link{
+			color: #d0021b;
+			margin-bottom: 50px;
 		}
 	}
 	#best-teacher{
@@ -566,6 +570,9 @@
 			}
 		}
 		form{
+			.form-control{
+				color:#000;
+			}
 			input{
 				&#btDangKyBanner{
 					margin-top: 15px;
@@ -791,7 +798,7 @@
 @media only screen and (max-width: 660px) {
 	#mod-landing-page{
 		h1{
-			font-size: 20px;
+			font-size: 15px;
 			line-height: 30px;
 		}
 		#banner{
