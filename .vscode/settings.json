@@ -3,4 +3,6 @@
     "files.associations": {
         "*.tpl": "html"
     }
+,
+"typescript.check.workspaceVersion": false
 }

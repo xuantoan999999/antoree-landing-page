@@ -2,47 +2,18 @@
 	'use strict';
 	var mod = $('#mod-landing-page');
 
-	function activePopup(){
-		mod.find('#imagespopup').magnificPopup({type:'image'});
-	}
-
-	function addSuKienVaoButtons(){
-
-		mod.find('#btDangKyODuoi').on('click',function(event){
-			ga('send','event', 'RegisterLandingPage', 'ClickTrialRegisterButton');
-		});
-	}
-
-	function popupBanner() {
-		if (mod.length>0) {
-			// var player = mod.find('#popup-banner iframe');
-			// var src = player[0].src;
-			mod.find('#youtube-1').on('click', function(event) {
-				event.preventDefault();
-				// player[0].src = src+"?autoplay=1";
-				helperJs.bzPopup({
-					rel: '#popup-banner',
-					width: 640
-					// close: function() {
-						// player[0].src = src;
-					// }
-				});
-			});
-		}
-	}
-
-	function popupAds() {
-		mod.find('#popup-ad button#popup').on('click', function(event) {
-			event.preventDefault();
-			helperJs.bzPopup({
-				rel: '#popup-ads',
-				width: 700
-			});
-		});
-		setTimeout(function() {
-			mod.find('#popup-ad button#popup').trigger('click');
-		},10000);
-	}
+	// function popupAds() {
+	// 	mod.find('#popup-ad button#popup').on('click', function(event) {
+	// 		event.preventDefault();
+	// 		helperJs.bzPopup({
+	// 			rel: '#popup-ads',
+	// 			width: 700
+	// 		});
+	// 	});
+	// 	setTimeout(function() {
+	// 		mod.find('#popup-ad button#popup').trigger('click');
+	// 	},10000);
+	// }
 	function formatDate(time) {
 		var date = {};
 		date.day = parseInt(time / 86400);
@@ -61,24 +32,21 @@
 		return timeString;
 	}
 	function time() {
-		var time = parseInt($('#time-clock').attr('time'));
+		var time = parseInt($('#time-clock').attr('data-time'));
 		setInterval(function() {
 			if (time > 0) {
 				var date = formatDate(time);
-				mod.find('.day').html(formatTime(date.day));
-				mod.find('.hour').html(formatTime(date.hour));
-				mod.find('.minute').html(formatTime(date.minute));
-				mod.find('.second').html(formatTime(date.second));
+				mod.find('.clock .day').html(formatTime(date.day));
+				mod.find('.clock .hour').html(formatTime(date.hour));
+				mod.find('.clock .minute').html(formatTime(date.minute));
+				mod.find('.clock .second').html(formatTime(date.second));
 			}
 			time --;
 		},1000);
 	}
 
 	$(document).ready(function() {
-		activePopup();
-		addSuKienVaoButtons();
-		popupBanner();
-		popupAds();
+		// popupAds();
 		time();
 	});
 })();

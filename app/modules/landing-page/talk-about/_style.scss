@@ -26,6 +26,7 @@
 		@include position(relative,null,null,null,null,100);
 		.comment-content{
 			font-family: $fontB;
+			width: 100%;
 		}
 		.comment-item{
 			margin-bottom: 10px;
@@ -63,6 +64,7 @@
 		.float-right{
 			.comment-text{
 				margin-right: 70px;
+				margin-left: auto;
 			}
 		}
 	}

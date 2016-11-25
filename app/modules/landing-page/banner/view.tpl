@@ -14,7 +14,7 @@
 					<p class="green-color">
 						Thời gian đăng kí còn lại
 					</p>
-					<div class="clock" time="10000" id="time-clock">
+					<div class="clock" data-time="10000" id="time-clock">
 						<span class="time float-left">
 							<p class="top day">03</p>
 							<p class="bottom">Ngày</p>
